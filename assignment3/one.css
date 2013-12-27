@@ -21,17 +21,32 @@ background: -webkit-linear-gradient(top, rgba(31,69,110,1) 0%,rgba(31,68,108,0.8
 background: -moz-linear-gradient(top, rgba(31,69,110,1) 0%,rgba(31,68,108,0.89) 4%,rgba(31,56,84,1) 52%,rgba(31,55,83,1) 54%,rgba(31,43,60,1) 100%); 
 background: -ms-linear-gradient(top, rgba(31,69,110,1) 0%,rgba(31,68,108,0.89) 4%,rgba(31,56,84,1) 52%,rgba(31,55,83,1) 54%,rgba(31,43,60,1) 100%);
 border-radius: 4px;
-opacity: .2;
+opacity: .8;
  }
 
 #gHcontent{
 	width: 960px;
-height: 100%;
+
 margin: 0 auto;
 max-width: 1280px;
 min-width: 960px;
 }
+#gHcontent1{width: 350px;
+	
+float: right;}
+#gHcontent1 #searhwr{
+	background-color: rgb(33,42,51);
 
+}
+#gHcontent1 #searhwr input[type=search]{width: 100%;
+
+background-color: transparent;
+border: 2px solid rgb(28,37,34);}
+#gHcontent1 li{float: left;
+	color: rgb(255,255,255);
+	padding-right: 20px;
+	height: 37px;
+}
 #wrapper{
 	width:960px;
 	margin:0 auto;
@@ -101,10 +116,10 @@ text-decoration: none; }
 	content: url(chhh.png);
 }
 #topnav #events:before{
-	content: url();
+	content: url(even.png);
 }
 #topnav #events:hover:before{
-	content: url();
+	content: url(evh.png);
 }
 #topNav #wiki:before{
 	content: url(wiact.png);
@@ -306,3 +321,8 @@ content:"\00a0";
 #ftContent ul li:last-child:after{
 	content: none;
 }
+#chContcr{
+	color: rgb(102,102,102);
+	font-size: 18px;
+}
+.footerl li{color: rgb(187,187,187);}
