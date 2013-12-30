@@ -11,6 +11,7 @@ ul{
 	padding: 0;
 	list-style-image: none;
 	list-style-type: none;
+	margin: 0px;
 }
 
 h1,h2,h3,h4,h5,h6{margin: 0;
@@ -32,8 +33,7 @@ opacity: .8;
 	width: 960px;
 
 margin: 0 auto;
-max-width: 1280px;
-min-width: 960px;
+
 }
 
 
@@ -159,6 +159,7 @@ color: rgb(255,255,255);
 	height: 40px;
 	border-radius: 4px;
 	color: rgb(255,255,255);
+	border-image:none;
 }
 
 #ltAnnounce{
@@ -235,7 +236,7 @@ border:1px solid rgb(127,170,197);}
 		border-radius: 4px;
 			border:1px solid #c9c9c9;
 			
-			
+			background-image:url(../images/cf%20pattern.png);
 			background-color: rgba(255,255,255,.3);
 			background-repeat: no-repeat;
 			background-position: 25% 100%;
@@ -327,4 +328,79 @@ content:"\00a0";
 	padding-top:15px;
 	padding-left:10px;
 	padding-right:10px;
+}
+#wrapper #topNav ul li a {
+	display:block;
+	
+}
+#wrapper #upcomingEv #upcomingEvcont ul .evbox .evboxcon .evConhr {
+	color:rgb(0,150,214);
+	font-size:18px;
+}
+#wrapper #upcomingEv #upcomingEvcont ul .evbox .evboxcon .evCondt {
+	color:rgb(169,169,169);
+	font-size:14px;
+}
+#wrapper #upcomingEv #upcomingEvcont ul .evbox .evboxcon .evConloc {
+	color:rgb(102,102,102);
+	font-size:16px;
+}
+#wrapper #upcomingEv #upcomingEvcont ul .evbox .evboxcon .evCondes {
+	color:rgb(102,102,102);
+	font-size:16px;
+}
+#globalHeader #gHcontent ul li input {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	border:2px solid rgb(36,46,55);
+	background-color:rgb(42,54,64);
+	border-radius:4px;
+	width:220px;
+	height:35px;
+}
+#globalHeader #gHcontent ul li {
+	float:right;
+	line-height:2.5;
+	padding-right:10px;
+
+}
+#globalHeader #gHcontent ul li a
+{	color:rgb(255,255,255);
+text-decoration:none;
+}
+#wrapper #ltAnnounce ul li a button {
+	display:inline-block;
+	border:none;
+	width: 140px;
+	height: 20px;
+	border-radius: 4px;
+	color: rgb(255,255,255);
+	border-image:none;
+	appearance:button;
+
+}
+
+#wrapper #ltAnnounce ul li a {
+		text-decoration:none;
+	text-align:center;
+	color:rgb(0,0,0);
+	display:block;
+}
+#wrapper #banner article a {
+			text-decoration:none;
+	text-align:center;
+	color:rgb(255,255,255);
+	display:block;
+}
+#wrapper #chapter #chCont ul li a {
+	display:block;
+	text-decoration:none;
+	color:rgb(255,255,255);
+}
+#wrapper #topNav ul li a:hover {
+	background-image:url(../images/hoverblue.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
 }
