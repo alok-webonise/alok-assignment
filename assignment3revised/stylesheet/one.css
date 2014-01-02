@@ -162,10 +162,14 @@ text-shadow: 1px -1px 0px rgba(0, 0, 0, 1);
 
 #ltAnnounce sub{color: rgb(123,126,127);}
 
-#ltAnnounce img{width: 100px;
-height: 100px;
-float: left;
-margin:0 1em 1em 0
+#ltAnnounce img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	padding-left: 10px;
 }
 
 
