@@ -1,6 +1,7 @@
 body{margin:0;
 padding:0;
-background-image:url(../images/background.png);
+background-image:url(../images/background.png),url(../images/cfpattern.png);
+background-position:center center,bottom top;
 background-repeat: no-repeat;
 background-size: 100%;
 }
@@ -174,7 +175,7 @@ text-shadow: 1px -1px 0px rgba(0, 0, 0, 1);
 	height: 100px;
 	float: left;
 	padding-top: 20px;
-	padding-right: 5px;
+	padding-right: 15px;
 	padding-bottom: 20px;
 	padding-left: 10px;
 }
@@ -296,7 +297,7 @@ content:"\00a0";
 
 #chContcr{
 	color: rgb(102,102,102);
-	font-size: 18px;
+	font-size: 16px;
 }
 .footerl li{color: rgb(187,187,187);}
 #glFooter #ftContent ul li a {
@@ -378,6 +379,7 @@ content:"\00a0";
 	display:block;
 	text-decoration:none;
 	color:rgb(255,255,255);
+	font-size:14px;
 }
 #wrapper #topNav ul li a:hover {
 	background-image:url(../images/hoverblue.png);
@@ -456,8 +458,8 @@ content:"\00a0";
 	text-align:left;
 }
 #wrapper #topNav ul #hm1 #home {
-	padding-left:20px;
-	padding-right:20px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 
