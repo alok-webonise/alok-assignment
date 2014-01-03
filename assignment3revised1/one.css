@@ -186,7 +186,7 @@ background-color:rgb(129,52,22);
 	text-decoration:none;
 	color:rgb(255,255,255);
 	line-height:40px;
-	text-align: center;
+	text-align:center;
 }
 #wrapper #contents .banner .bannerContent .bannerText h1{
 	text-shadow:-1px -1px 1px #000;
@@ -238,7 +238,7 @@ background-repeat:repeat-x;
 font-size: 16px;
 border-bottom: 1px solid rgb(204,204,204);s
 overflow: hidden;
-margin-bottom:20px;
+
 }
  .boxHeaders h3 {
 	padding-left:25px;
@@ -252,8 +252,7 @@ margin-bottom:20px;
 	margin: 0;
 	padding:0;
 	list-style:none;
-	margin-left:20px;
-	margin-right:20px;
+	
 }
 #wrapper #contents .announcementsChapters .latestAnnouncements  .boxContent ul li
 {display:block;
@@ -267,8 +266,7 @@ padding-bottom:30px;
 	
 	padding: 0;
 	list-style: none;
-	margin-left:20px;
-	margin-right:20px;
+
 }
 .boxContent ul li{
 	display: block;
@@ -301,7 +299,7 @@ list-style: none;}
 	background-position: center;
 background-color:rgb(129,52,22); 
 	border: 2px solid rgb(129,52,22);
-	width: 140px;
+	width: 160px;
 	height: 38px;
 	border-radius: 4px;
 	color: rgb(255,255,255);
@@ -321,9 +319,10 @@ background-color:rgb(129,52,22);
 	text-decoration: none;
 	color: rgb(255,255,255);
 	display: block;
+	text-align: center;
 }
 .events .boxHeaders{
-	margin-bottom: 30px;
+	
 	background-image: url(images/headergradient.png);
 	background-repeat: repeat-x;
 }
@@ -367,9 +366,6 @@ ul.imageNav{
 	font-size: 12px;
 	color: rgb(160,162,163);
 }
-.boxContent span{display: block;
-margin: 0;
-padding: 0;}
 
 .contentLink a{
 	text-decoration: none;
@@ -381,3 +377,62 @@ padding: 0;}
 	color: rgb(102,102,102);
 }
 .boxContent li{display: block;}
+.cfdgFooter span{
+	display: inline;
+}
+.footerText{
+	font-size: 16px;
+	color: rgb(102,102,102);
+}
+.eventWrapperhead a{
+	
+	font-size:16px;
+	
+
+}
+.eventWrapperdate{
+	color:rgb(169,169,169);
+	font-size:12px;
+}
+.eventBoxcontents a{
+	color:rgb(0,150,214);
+	text-decoration: none;
+
+}
+.eventWrapperloc,.eventwrapperDescription{
+	font-size: 14px;
+	color: rgb(102,102,102);
+}
+.eventWrapperloc strong,.eventwrapperDescription strong{
+	color: #000;
+}
+.eventWrappermore{
+	font-size: 14px;
+}
+.boxInsidecontent .button a{
+	text-decoration: none;
+	color: rgb(51,51,51);
+	font-size: 11px;
+	background-image: url(images/button1bg.png);
+	background-repeat: repeat-x;
+	border: 1px solid rgb(184,184,184);
+	border-radius: 2px;
+	height:18px;
+	width: 90px;
+	display: block;
+	line-height: 20px;
+	text-align: center;
+
+}
+.latestAnnouncements .boxContent{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.cfdgChapter .boxContent{
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+.eventBoxcontents{
+	margin-top: 20px;
+}
