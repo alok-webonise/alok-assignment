@@ -1,3 +1,4 @@
+*{font-family: Arial, Helvetica, sans-serif;}
 body{
 	margin: 0;
 	padding: 0;
@@ -259,14 +260,9 @@ margin-bottom:20px;
 padding-bottom:30px;
 }
 #wrapper #contents .announcementsChapters .latestAnnouncements .boxContent ul li .boxImage img {
-	float:left;
+
 }
-#wrapper #contents .announcementsChapters .latestAnnouncements button {
-	width:90px;
-	height:20px;
-	font-size:11px;
-}
-#wrapper #contents .announcementsChapters .latestAnnouncements button a{text-decoration:none;}
+
 .boxContent ul{
 	
 	padding: 0;
@@ -344,7 +340,8 @@ background-color:rgb(129,52,22);
 	border: 1px solid #c9c9c9;
 	border-radius: 4px;
 	background-color: rgb(255,255,255);
-	width: 198px;
+	width: 208px;
+	margin-left: 15px;
 }
 ul.imageNav{
 	height: 0;
@@ -352,3 +349,35 @@ ul.imageNav{
 	border: none;
 	float: none;
 }
+.eventBoxcontents ul li img{
+	width: 190px;
+	height: 90px;
+}
+.eventWrapper{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+.boxImage{
+		padding-right: 15px;
+		float: left;
+}
+.boxInsidecontent{}
+.contentDate{
+	font-size: 12px;
+	color: rgb(160,162,163);
+}
+.boxContent span{display: block;
+margin: 0;
+padding: 0;}
+
+.contentLink a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #000;
+}
+.contentDescription{
+	font-size: 13px;
+	color: rgb(102,102,102);
+}
+.boxContent li{display: block;}
