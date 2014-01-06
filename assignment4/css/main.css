@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:arial,sans-serif;
+    font-size:14px;
+}
+.header{
+    background-color:rgb(255,255,255);
+    box-shadow:2px 0 5px #000;
+}
+.headerContent{
+    width:940px;
+  
+    margin:0 auto;
+}
+.headerContent {
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+ .headerLogo{
+width:140px;
+    float:left;
+}
+.headerContent .headerLogo a{
+    display:block;
+    width:140px;
+    height:38px;
+    background-image:url(../images/langmartlogo.png);
+    background-repeat:no-repeat;
+   
+}
+.headerNav{float:right;}
+.headerNav ul{margin:0;
+    padding:0;
+    list-style:none;
+}
+.headerNav ul li{float:left;
+   
+    
+}
+.headerNav ul li a{ line-height:38px;
+    font-size:14px;
+    
+    font-weight:600;
+    color:rgb(68,68,68);
+padding-right:20px;
+padding-left:20px;
+text-decoration:none;}
+.clear{
+    clear:both;
+}
+.button{color:rgb(255,255,255);}
+.button a{
+    width:78px;
+    height:28px;
+    background-image:url(../images/button1gradient.png);
+    background-repeat:repeat-x;
+    border:1px solid #000;
+    border-radius:4px;
+    font-size:14px;
+    color:rgb(255,255,255);
+}
+    
