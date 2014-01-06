@@ -106,6 +106,7 @@ margin:0 auto;}
 	border-radius: 4px;
 	margin:0 auto;
 	margin-bottom:20px;
+	box-shadow: 0 0 9px rgba(0,0,0,.3);
 }
 #wrapper #header .navBar ul{margin:0;
 padding:0;
@@ -131,7 +132,7 @@ display:block;
 #wrapper #header .navBar ul li a:hover{
 	border-bottom:2px solid rgb(0,150,214);
 	height:52px;
-	margin-right:2px;
+	
 }
 #wrapper #contents {
 	margin:0 auto;
@@ -178,7 +179,7 @@ background-color:rgb(129,52,22);
 	height: 38px;
 	border-radius: 4px;
 	color: rgb(255,255,255);
-	box-shadow: 0 2px 0 rgba(255,255,255,.4);
+	
 	
 }
 #wrapper #contents .banner .bannerContent .bannerText
@@ -212,6 +213,12 @@ background-color:rgb(129,52,22);
 	height:550px;
 	margin-bottom:20px;
 }
+#wrapper #contents .announcementsChapters .latestAnnouncements .boxHeaders{
+	background-image: url(images/announcehead.png);
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 50px 45px ;
+margin-bottom: 20px;}
 #wrapper #contents .announcementsChapters .latestAnnouncements {
 		width: 318px;
 	background-color: rgba(255,255,255,.6);
@@ -221,6 +228,11 @@ background-color:rgb(129,52,22);
 	height: 550px;
 	margin-right:20px;
 }
+#wrapper #contents .announcementsChapters .cfdgChapter .boxHeaders{background-image: url(images/mapgr.png);
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 50px 45px ;
+margin-bottom: 20px;}
 #wrapper #contents .announcementsChapters .cfdgChapter {
 	background-color: rgba(255,255,255,.6);
 	width: 618px;
@@ -255,9 +267,7 @@ overflow: hidden;
 	display: block;
 	
 }
-.latestAnnouncement h3{background-image:url(images/announcehead.png);
-	background-position:right;
-	background-repeat:no-repeat;}
+
 #wrapper #contents .announcementsChapters  .boxContent ul {
 	margin: 0;
 	padding:0;
@@ -440,7 +450,7 @@ ul.imageNav{
 }
 .latestAnnouncements .boxContent{
 	margin-left: 20px;
-	margin-top: 20px;
+	
 }
 .cfdgChapter .boxContent{
 	margin-left: 25px;
@@ -448,7 +458,7 @@ ul.imageNav{
 	margin-right: 25px;
 }
 .eventBoxcontents{
-	margin-top: 20px;
+	
 }
 .boxInsidecontent span{
 	display: block;
@@ -484,4 +494,11 @@ ul.imageNav{
 	height: 20px;
 	width: 10px;
 	
+}
+.events .boxHeaders{
+	margin-bottom: 20px;
+	background-image: url(images/eventheader.png);
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 50px 45px ;
 }
