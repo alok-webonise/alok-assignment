@@ -152,3 +152,45 @@ display:block;
     text-align:center;
 }
 
+.section{background-image:url(../images/sectiongradient.png);
+    background-repeat:repeat-x;
+    
+    box-shadow:1px 0 6px rgba(0,0,0,.4);
+}
+.sectionContent{
+    width:940px;
+    margin:0 auto;
+}
+.sectionContent ul{margin:0;
+    padding:0;
+    list-style:none;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+.sectionContent ul li{float:left;
+width:210px;
+margin-right:20px;
+text-align:center;}
+
+.sectionImg1{height:160px;
+background-image:url(../images/sectioneclipse1.png);
+background-repeat:no-repeat;
+background-position:center center;}
+.sectionImg2{
+    background-image:url(../images/sectioneclipse2.png);
+background-repeat:no-repeat;
+background-position:center center;
+    height:160px;
+}
+.sectionImg3{
+    background-image:url(../images/sectioneclipse3.png);
+background-repeat:no-repeat;
+background-position:center center;
+    height:160px;
+}
+.sectionImg4{
+    background-image:url(../images/sectioneclipse4.png);
+background-repeat:no-repeat;
+background-position:center center;
+    height:160px;
+}
