@@ -1,11 +1,11 @@
-*{ font-family:'Roboto' ;}
+
 body{
     margin:0;
     padding:0;
    
     font-size:14px;
      background-color: #fff;
-   
+    font-family:'Roboto' ;
 }
 
 .header{
@@ -400,4 +400,28 @@ margin-right: 20px; }
     display: inline;
     font-size: 14px;
     color: rgb(213,65,2);
+}
+.footerContent{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 940px;
+     text-align: center;
+}
+
+}
+.footerContent ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.footerContent ul li{
+    display: inline;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgb(200,200,200);
+}
+.footerContent ul li a{
+   color: rgb(200,200,200);
+   text-decoration: none;
 }
