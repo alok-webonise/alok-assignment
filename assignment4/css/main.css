@@ -275,6 +275,7 @@ height:2px;}
     font-family:'arial' 'helvetica';
     font-size: 13px;
     display: block;
+    color: rbg(34,34,34);
 
 }
 ul li.providerHeader{
@@ -346,8 +347,13 @@ text-align:center;
 padding-bottom:20px;}
 .section_2Details{margin-left:20px;
 margin-right:10px;}
+.section_2Details ul{
 
-.section_2Contentbox{width:430px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section_2Details ul li{width:430px;
 height:110px;
 background-color:rgb(255,255,255);
 margin-right:25px;
