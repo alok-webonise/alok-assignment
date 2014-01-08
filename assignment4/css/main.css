@@ -1,4 +1,4 @@
-*{ font-family:'Roboto' 'arial' 'helvetica' sans-serif;}
+*{ font-family:'Roboto' ;}
 body{
     margin:0;
     padding:0;
@@ -7,6 +7,7 @@ body{
      background-color: #fff;
    
 }
+
 .header{
     background-color:rgb(255,255,255);
     box-shadow:2px 0 5px #000;
@@ -105,7 +106,7 @@ background-position:center;}
 }
 .bannerContentHeader1,.bannerContentHeader2{
     font-size:24px;
-    font-family:arial sans-serif;
+    font-family:'Roboto';
     display:block;
     text-align:center;
     color:rgb(102,102,102);
@@ -122,7 +123,7 @@ text-align:center;
     margin-bottom:30px;
 }
 .bannerContentbutton1 a{text-decoration:none;
-font-family:arial sans-serif;
+font-family:'Roboto';
 font-size:14px;
 color:rgb(63,63,63);
 background-color:rgb(247,247,247);
@@ -146,7 +147,7 @@ list-style:none;
 .translationButton ul li a{text-decoration:none;
     color:#fff;
     font-size:16px;
-    font-family:arial sans-serif;
+    font-family:'Roboto';
     background-image:url(../images/buttongradient1.png);
 border:1px solid rgb(153,34,17);
 border-radius:8px;
@@ -292,4 +293,9 @@ box-shadow:0 0 5px rgba(0,0,0,.4);}
     background-image:url(../images/footer-gradient.png);
     background-repeat:repeat-x;
     
+}
+@font-face{
+    font-family: 'Roboto';
+    src:local('Roboto'),
+    url(../font/Roboto.ttf);
 }
