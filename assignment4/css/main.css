@@ -45,12 +45,14 @@ width:140px;
 }
 .headerNav ul li a{line-height:38px;
     font-size:14px;
-    
-    font-weight:600;
-    color:rgb(68,68,68);
+    color:rgb(102,102,102);
 padding-right:20px;
 padding-left:20px;
-text-decoration:none;}
+text-decoration:none;
+font-weight: bold;}
+
+.headerNav ul li a:hover{color: rgb(62,62,62);}
+
 .clear{
     clear:both;
 }
@@ -64,28 +66,37 @@ text-decoration:none;}
     border-radius:4px;
     font-size:14px;
     color:#fff;}
-    
+    .headerNav ul .button a:hover{
+        font-weight: 500;
+        color: #fff;
+
+    }
 .banner{
         width:940px;
     margin:0 auto;
     margin-bottom:25px;
    
     }
+
 .banner .bannerSlider 
 {
     height:275px;
 }
+
 .banner .bannerContent{
     height:215px;
 }
 .banner .bannerSlider .sliderWrapper{
     height:250px;
 }
+
 .sliderButtons ul{margin:0;
     padding:0;
     list-style:none;
 }
+
 .sliderButtons ul li{float:left;}
+
 .sliderButtons ul li a{
     display:block;
     width:13px;
@@ -235,14 +246,14 @@ height:2px;}
 }
 .section_1Content{ margin-bottom:50px;}
 .location{
-    width: 620px;
+    width: 605px;
     float: left;
     margin-right: 25px;
 
 
 }
 .providers{
-    width:190px;
+  width: 270px;
     float: left;
 
 }
@@ -256,12 +267,64 @@ height:2px;}
     padding:0;
     
 }
-.providerHeader{
+
+.providers ul li{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-family:'arial' 'helvetica';
+    font-size: 13px;
+    display: block;
+
+}
+ul li.providerHeader{
     color:rgb(221,68,34);
     font-weight:bold;
     font-size:18px;
-    margin-bottom:30px;
+   width: 270px;
+    font-family: 'Roboto';
+    padding-left: 0;
+    padding-bottom: 15px;
+    
 }
+.providerHeader hr{
+    background-image: none;
+    background-color: rgb(235,235,235);
+}
+
+ul li.pro1{
+    background-image: url(../images/pro1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+ul li.pro2{
+    background-image: url(../images/pro2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+ul li.pro3{
+    background-image: url(../images/pro3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+ul li.pro4{
+    background-image: url(../images/pro4.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+ul li.pro5{
+    background-image: url(../images/pro5.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+ul li.pro6{
+    background-image: url(../images/pro6.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
 .section_2{
   
     background-color:rgb(221,221,221);
