@@ -302,7 +302,7 @@ height:2px;}
 }
 .location span{
     font-size:21px;
-    color:rgb(180,180,180);
+    color:#444444;
 }
 .providers ul{
     list-style:none;
@@ -313,15 +313,14 @@ height:2px;}
 .locationWrapper img{width: 605px;}
 
 .providers ul li{
-    padding-left: 60px;
-    padding-bottom: 30px;
+   
     font-family:'arial' 'helvetica';
     font-size: 13px;
     display: block;
     color: rbg(34,34,34);
 
 }
-ul li.providerHeader{
+.providerHeader{
     color:rgb(221,68,34);
     font-weight:bold;
     font-size:18px;
@@ -336,40 +335,9 @@ ul li.providerHeader{
     background-color: rgb(235,235,235);
 }
 
-ul li.pro1{
-    background-image: url(../images/pro1.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-ul li.pro2{
-    background-image: url(../images/pro2.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-ul li.pro3{
-    background-image: url(../images/pro3.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
+s
 
-ul li.pro4{
-    background-image: url(../images/pro4.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
-ul li.pro5{
-    background-image: url(../images/pro5.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
-ul li.pro6{
-    background-image: url(../images/pro6.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-.providers ul li span{display: block;
+.providers ul li span.sub{display: block;
 font-size: 11px;
 color: rgb(136,136,136);}
 
