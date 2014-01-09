@@ -8,6 +8,7 @@ a{
 h1,h2,h3,h4,h5{
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 body{
     margin:0;
@@ -155,16 +156,18 @@ background-position:center;}
     background-repeat:no-repeat;
     background-position:center;
 }
-
+.bannerContentHeader1,.bannerContentHeader2{
+    display: block;
+}
 .bannerContentHeader1 h3{
     font-size: 24px;
     text-align: center;
-    font-family:'roboto';
+     font-family:'robotomedium';
     color: #666666;
 }
 .bannerContentHeader2 h1{font-size:30px;
   
-    font-family:'Roboto';
+    font-family:'robotomedium';
    
     text-align:center;
     color:#444444;
@@ -199,10 +202,11 @@ list-style:none;
     padding-right:15px;
     line-height:50px;
 }
-.translationButton ul li a{
+
+.translationButton  a{
     color:#fff;
     font-size:16px;
-    font-family:'Roboto';
+    font-family:'Robotobold';
     background-image:url(../images/buttongradient1.png);
 border:1px solid rgb(153,34,17);
 border-radius:4px;
@@ -210,7 +214,21 @@ height:48px;
 display:block;
     width:248px;
     text-align:center;
+    float: left;
+    line-height: 50px;
+
+
 }
+.translationButton  a.buyer{
+    margin-left: 190px;
+}
+.translationButton  a.provider{margin-left: 20px;}
+.translationButton span{float: left;
+line-height: 50px;
+margin-left: 20px;
+font-size: 20px;
+font-family:'robotobold';
+color: #666666;}
 
 .section{background-image:url(../images/sectiongradient.png);
     background-repeat:repeat-x;
@@ -335,37 +353,37 @@ height:2px;}
     background-color: rgb(235,235,235);
 }
 
-s
+
 
 .providers ul li span.sub{display: block;
 font-size: 11px;
 color: rgb(136,136,136);}
 
-.section_2{
+.sectiontwo{
   
     background-color:rgb(221,221,221);
 }
-.section_2Content{
+.sectiontwoContent{
     width:940px;
     margin:0 auto;
 }
 .sectionOneButtons{margin-bottom:40px;}
-.section_2ContentHeader{font-size:24px;
+.sectiontwoContentHeader{font-size:24px;
 color:rgb(34,34,34);
 padding-top:45px;
 display:block;
 text-align:center;
 padding-bottom:20px;}
-.section_2Details{margin-left:20px;
+.sectiontwoDetails{margin-left:20px;
 margin-right:10px;}
-.section_2Details ul{
 
+.sectiontwoDetails ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.section_2Details ul li{width:430px;
 
+.sectiontwoDetails ul li{width:430px;
 background-color:rgb(255,255,255);
 margin-right:25px;
     margin-bottom:25px;
@@ -375,60 +393,67 @@ box-shadow:0 0 5px rgba(0,0,0,.4);}
 .footer{
     height:68px;
     background-image:url(../images/footer-gradient.png);
-    background-repeat:repeat-x;
-    
+    background-repeat:repeat-x;   
 }
+
 @font-face {
     font-family: 'robotobold';
     src:url('../font/roboto-bold-webfont.eot');
     src:url('../font/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../font/roboto-bold-webfont.woff') format('woff'),
          url('../font/roboto-bold-webfont.ttf') format('truetype'),
-         url('..font/roboto-bold-webfont.svg#robotobold') format('svg');
+         url('../font/roboto-bold-webfont.svg#robotobold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'roboto';
-    src: url('..font/roboto-regular-webfont.eot');
-    src: url('..font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('..font/roboto-regular-webfont.woff') format('woff'),
-         url('..font/roboto.ttf') format('truetype'),
-         url('..font/roboto-regular-webfont.svg#robotoregular') format('svg');
+    src: url('../font/roboto-regular-webfont.eot');
+    src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-regular-webfont.woff') format('woff'),
+         url('../font/roboto.ttf') format('truetype'),
+         url('../font/roboto-regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-.section_2DetailContents{
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../font/roboto-medium-webfont.eot');
+    src: url('../font/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-medium-webfont.woff') format('woff'),
+         url('../font/roboto-medium-webfont.ttf') format('truetype'),
+         url('../font/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.sectiontwoDetailContents{
    padding: 20px;
 
 }
-.section_2DetailContents span{
+.sectiontwoDetailContents span{
     display: block;
 }
-.section_2Img{float: left;
+.sectiontwoImg{float: left;
 box-shadow:0 0 3px 0 rgba(0,0,0,.2);
 border-radius: 4px;
 margin-right: 20px; }
 
-.section_2Img img{
+.sectiontwoImg img{
     padding: 2px;
 
 }
-.section_2DetailContents span.heading{
+.sectiontwoDetailContents span.heading{
     font-size: 16px;
     padding-bottom: 15px;
 }
-.section_2DetailContents span.heading+span{
+.sectiontwoDetailContents span.heading+span{
     font-size: 12px;
     color: rgb(136,136,136);
 }
-.section_2DetailContents span.subHeading{
+.sectiontwoDetailContents span.subHeading{
     display: inline;
     font-size: 14px;
     color: rgb(213,65,2);
@@ -442,7 +467,7 @@ margin-right: 20px; }
 
 
 .footerNav ul{
-    margin: 0;
+
     padding: 0;
     list-style: none;
     display: inline;
