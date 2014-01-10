@@ -128,7 +128,7 @@ margin-left: 20px;
     padding-bottom: 20px;
 }
 .bannerWrapper .bannerSlider .sliderWrapper{
-    height:250px;
+    height:259px;
 }
 
 .sliderButtons ul{margin:0;
@@ -189,6 +189,9 @@ padding:13px 20px 13px 20px;
 border-radius:4px;
 }
 
+.translationButton {
+    padding-bottom: 33px;
+}
 .translationButton ul{
 margin:0;
 padding:0;
@@ -336,7 +339,8 @@ height:2px;}
     font-size: 13px;
     display: block;
     color: rgb(34,34,34);
-    padding-bottom:15px;
+    padding-bottom:35px;
+
 
 
 }
@@ -394,12 +398,18 @@ margin-right:10px;}
     width: 45px;
     height: 45px;
     float: left;
-    padding-right: 5px;
+    padding-right: 15px;
+   
 }
+.pro img{ border-radius:44px;
+vertical-align: baseline;}
 a.providerLink{
     font-family: 'arial' 'helvetica';
     font-size: 13px;
     color:#222222;
+    margin-top: 10px;
+    display: block;
+    line-height: 30px;
 }
 .sectiontwoDetails ul li{width:430px;
 background-color:rgb(255,255,255);
