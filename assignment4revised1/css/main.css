@@ -190,7 +190,7 @@ border-radius:4px;
 }
 
 .translationButton {
-    padding-bottom: 33px;
+    padding-bottom: 19px;
 }
 .translationButton ul{
 margin:0;
@@ -312,7 +312,7 @@ height:2px;}
 .location{
     width: 605px;
     float: left;
-    margin-right: 25px;
+    margin-right: 55px;
 
 
 }
@@ -339,19 +339,19 @@ height:2px;}
     font-size: 13px;
     display: block;
     color: rgb(34,34,34);
-    padding-bottom:35px;
+    padding-bottom:10px;
 
 
 
 }
 .providerHeader{
     color:rgb(221,68,34);
-    font-weight:bold;
+   
     font-size:18px;
    width: 270px;
-    font-family: 'Roboto';
+    font-family: 'Robotobold';
     padding-left: 0;
-    padding-bottom: 15px;
+   
     
 }
 .providerHeader hr{
@@ -402,7 +402,8 @@ margin-right:10px;}
    
 }
 .pro img{ border-radius:44px;
-vertical-align: baseline;}
+height: 45px;
+width: 45px;}
 a.providerLink{
     font-family: 'arial' 'helvetica';
     font-size: 13px;
