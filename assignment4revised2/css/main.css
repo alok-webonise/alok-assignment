@@ -179,6 +179,8 @@ h1.bannerContentHeader2 {font-size:30px;
     color:#444444;
     padding-bottom:30px;
     line-height: 40px;
+    text-shadow:1px 0 1px rgb(0,0,0);
+
 }
 .bannerContentbutton1{display:block;
 text-align:center;
@@ -230,6 +232,7 @@ display:block;
     float: left;
     line-height: 50px;
     box-shadow: 1px 0 3px rgba(0,0,0,.4);
+    text-shadow:1px 0 1px rgba(0,0,0,.4);
 
 
 }
@@ -242,7 +245,8 @@ line-height: 50px;
 margin-left: 20px;
 font-size: 20px;
 font-family:'robotobold';
-color: #666666;}
+color: #666666;
+text-shadow:1px 0 1px rgba(0,0,0,.5);}
 
 .section{background-image:url(../images/sectiongradient.png);
     background-repeat:repeat-x;
@@ -299,6 +303,7 @@ color:rgb(245,245,245);
 background-repeat:repeat-x;
 background-position: bottom;
 padding-bottom: 2px;
+text-shadow:1px 0 1px rgba(0,0,0,.6);
  
 }
 .detailContent{
@@ -508,9 +513,8 @@ margin: 18px; }
 }
  span.heading{
     font-size: 16px;
-    padding-bottom: 15px;
-   
-    line-height: 36px;
+    
+    line-height: 46px;
 }
  span.heading+span{
     font-size: 12px;
