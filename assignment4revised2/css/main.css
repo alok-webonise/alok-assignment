@@ -117,22 +117,22 @@ margin-left: 20px;
 .banner{
     background-color: rgb(238,238,238);
 }
-.bannerWrapper{
+.bannerContainer{
         width:940px;
     margin:0 auto;
 
     background-color: transparent;
     }
 
-.bannerWrapper .bannerSlider 
+.bannerContainer .bannerSlider 
 {
     height:275px;
 }
 
-.bannerWrapper .bannerContent{
+.bannerContainer .bannerContent{
     padding-bottom: 20px;
 }
-.bannerWrapper .bannerSlider .sliderWrapper{
+.bannerContainer .bannerSlider .sliderWrapper{
     height:259px;
 }
 
@@ -162,7 +162,7 @@ background-position:center;}
     background-position:center;
 }
 
-h3.bannerContentHeader1 {
+h3.bannerContentHeaderone {
     font-size: 24px;
     text-align: center;
      font-family:'robotomedium';
@@ -171,7 +171,7 @@ h3.bannerContentHeader1 {
 
 
 }
-h1.bannerContentHeader2 {font-size:30px;
+h1.bannerContentHeadertwo {font-size:30px;
   
     font-family:'robotomedium';
    
@@ -179,17 +179,17 @@ h1.bannerContentHeader2 {font-size:30px;
     color:#444444;
     padding-bottom:30px;
     line-height: 40px;
-    text-shadow:1px 0 1px rgb(0,0,0);
+    text-shadow:1px 0 0 rgba(0,0,0,.5);
 
 }
-.bannerContentbutton1{display:block;
+.bannerContentbuttonone{display:block;
 text-align:center;
     background-image:url(../images/signuphr.png);
     background-repeat:no-repeat;
     background-position:center center;
     margin-bottom:30px;
 }
-.bannerContentbutton1 a{
+.bannerContentbuttonone a{
 font-family:'robotobold';
 font-size:14px;
 color:#3f3f3f;
