@@ -370,6 +370,8 @@ margin-right: 15px;
   
   .travelDetails p{
   	font-family: 'Tahoma';
+  	font-size: 11px;
+  	line-height: 24px;
   }
   .routeHeading{
   	font-size: 20px;
@@ -377,7 +379,7 @@ margin-right: 15px;
   line-height: 40px;
 
   }
-  .travelDetails span a{
+  .travelDetails a{
   	color:#1a4da2; 
   	font-family:'Tahoma';
   }
