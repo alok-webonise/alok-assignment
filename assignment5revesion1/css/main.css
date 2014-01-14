@@ -391,8 +391,9 @@ ul li.clear
 {
 	height: 300px;
 	max-height: 300px;
-	max-width: 650px;
-	width: 650px;
+	max-width: 660px;
+	width: 660px;
+	display: block;
 }
 .locationGuide h3
 {
