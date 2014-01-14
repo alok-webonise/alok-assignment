@@ -220,13 +220,15 @@ color: #d54405;
 
 	
 	border-bottom: 1px solid rgba(228,228,228,1);
+	margin-bottom: 15px;
 }
 .aside ul a{
 	line-height: 25px;
 	display: block;
 	width: 220px;
-	font-size: 15px;
+	font-size: 17px;
 	color: #1a4da2;
+	font-family:"robotolight";
 	
 }
 .aside ul a .menuImage1{
@@ -293,10 +295,17 @@ margin-right: 15px;
 
 .aside ul a:hover{
 	color: #d54405;
+	height: 49px;
 }
 
 .aside ul li:hover{
 	border-bottom: 2px solid #d54405;
+}
+ .aside ul a .menuImage1:hover{
+	background-image: url(../images/reachactive.png);
+	background-position: center center;
+
+
 }
 
  .linkSubheading{
@@ -338,6 +347,7 @@ margin-right: 15px;
  	text-align: center;
  	font-size: 14px;
  	margin: 0 15px 25px 15px;
+ 	color: #444444;
  }
  .travelOption h3{
  	color:#d54405;
@@ -405,4 +415,7 @@ border-radius: 4px;
 
     select option{
     	background: none;
+    }
+    .locationDistanceDetail{
+    	color: #000;
     }
