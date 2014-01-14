@@ -32,6 +32,11 @@ h1,h2,h3,h4,h5{
     font-style: normal;
 
 }
+@font-face {
+	font-family: 'Robotomedium';
+	src:url('../fonts/Roboto-Medium.ttf');
+	font-weight: normal;
+}
 
 
 
@@ -233,14 +238,9 @@ background-image: url(../images/reachactive.png);
 background-repeat: no-repeat;
 background-position: center center;
 margin-right: 15px;
-
-.aside ul a .menuImage1:hover{
-	background-image: url(../images/reachhover.png);
-background-repeat: no-repeat;
-background-position: center center;
-
 }
-}
+
+
  .aside ul a .menuImage2
  {
 float: left;
@@ -290,6 +290,14 @@ background-repeat: no-repeat;
 background-position: center center;
 margin-right: 15px;
  }
+
+.aside ul a:hover{
+	color: #d54405;
+}
+
+.aside ul li:hover{
+	border-bottom: 2px solid #d54405;
+}
 
  .linkSubheading{
  	font-size: 12px;
@@ -390,6 +398,7 @@ border-radius: 4px;
   	height: 28px;
   	border-radius: 4px;
   	border: 1px solid rgba(228,228,228,1);
+  	font-family: 'Robotomedium';
   }
 
     select option{
