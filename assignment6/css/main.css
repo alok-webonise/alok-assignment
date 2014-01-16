@@ -9,10 +9,18 @@ a{
 	text-decoration: none;
 }
 
+h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+
+}
+
 .headerOuter{
    
 	background-color: rgb(240,242,245);
 	box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px;
 }
 
 .innerContainer{
@@ -22,13 +30,15 @@ a{
 
 .slideLeft{
 	float: left;
-	padding-top: 5px;
-	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-bottom: 2px
+	
 }
 .slideRight{
 	float: right;
-	padding-top: 5px;
-	padding-bottom: 6px;
+	padding-top: 9px;
+	padding-bottom: 2px;
+	
 }
 
 .clear{
@@ -53,7 +63,7 @@ a.logo{
 	background-image: url(../images/search.png);
 	background-position: left;
 	background-repeat: no-repeat;
-
+	box-shadow: 0px -1px 1px #ddd;
 
 
 }
@@ -62,7 +72,7 @@ a.logo{
 	font-size: 15px;
 	font-family: 'arial';
 	margin-right: 30px;
-	line-height: 37px;
+	line-height: 38px;
 	float: left;
 	font-weight: bold;
 }
@@ -90,4 +100,212 @@ a.logo{
 	border: 3px solid #fff;
 
 
+}
+
+.innerContainer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.innerContainer ul li{
+	float: left;
+	margin-right: 13px;
+	padding-bottom: 14px;
+
+}
+.innerContainer .nPtel{
+	font-size:15px;
+	font-family: arial 'helvetica neue';
+	color: #222222;
+	
+
+	padding-right: 15px;
+	background-image: url(../images/nptelsep.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.innerContainer .nPtelCourses{
+
+	font-size:15px;
+	font-family: arial 'helvetica neue';
+	color: #888888;
+	
+
+}
+
+.nptelCourseContainer ul li.clear{
+	float: none;
+	clear: both;
+	width: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.nptelHeading{
+	border-bottom: 1px solid rgb(220,220,220);
+	margin-bottom: 20px;
+}
+
+.nptelCourseContainer{
+	float: left;
+	
+	width: 730px;
+}
+
+.nptelCourseContainer ul li{
+	float: left;
+	border:1px solid rgb(204,204,204);
+	margin-right: 20px;
+	margin-bottom: 15px;
+	padding:0;
+	border-radius: 4px;
+	width: 218px;
+	box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.28);
+}
+
+.nptelCourseContainer ul li .courseImage{
+	padding: 7px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgb(220,220,220);
+	max-width: 206px;
+	max-height: 126px;
+}
+
+.nptelCourseContainer ul li .courseImage img{
+	width: 206px;
+	height: 126px;
+	max-width: 206px;
+	max-height: 126px;
+	display: block;
+}
+
+.nptelCourseContainer ul li ul{
+	
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.nptelCourseContainer ul li ul li{
+	float: none;
+	border: none;
+	margin: 0;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 11px;
+	color: #222222;
+	line-height: 30px;
+	width: 190px;
+	
+	
+	border-bottom: 1px solid rgb(220,220,220);
+}
+
+.nptelCourseContainer ul li div:last-child{
+	background-color: rgb(244,246,248);
+}
+
+h3.courseType{
+	padding-left: 14px;
+
+	line-height: 20px;
+}
+
+.courseType a{
+	color: #225588;
+	font-size: 13px;
+	font-family: arial 'helvetica';
+	
+	
+}
+
+.nptelHeading li.clear{
+	clear: both;
+	float: none;
+
+}
+a.courseVideos{
+	
+	width: 25px;
+	height: 30px;
+	background-image: url(../images/videos.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	line-height: 30px;
+	font-size: 13px;
+	color: #888888;
+	padding-left: 22px;
+	margin-right: 25px;
+}
+a.courseNotes{
+	
+	width: 25px;
+	height: 35px;
+	background-image: url(../images/notes.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	font-size: 13px;
+	color: #888888;
+	padding-left: 18px
+
+}
+
+.footer{
+	border-top: 1px solid #cecece;
+	line-height: 38px;  
+}
+
+.footer .footNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer .footNav ul li{
+	float: left;
+	margin-right: 15px;
+	
+}
+.footer .footNav ul li a
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: #225588;
+}
+.footer span{
+	display: block;
+	float: right;
+	font-size: 13px;
+	color: #888888;
+}
+
+.pageAds{
+	float: right;
+
+}
+
+
+ .innerContainer .pageAds ul li{
+ 	float: none;
+ 	margin-right: 0;
+ 	padding: 0;
+ 	margin-bottom: 20px;
+ }
+ .innerContainer .pageAds ul li img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.courseCounter{
+	font-size: 13px;
+	line-height: 13px;
+	color: #888888;
+	font-weight: normal;
+}
+
+a.clear{
+	clear: both;
+	display: block;
 }
