@@ -360,10 +360,11 @@ h3.courseType {
 li div a span.courseCounter {
     float: left;
     width: 35px;
-    height: 35px;
+    height: 30px;
     font-size: 13px;
-    line-height: 20px;
-    margin-top: 8px;
+    line-height: 19px;
+    margin-top: 5px; 
+    
    
 }
 
