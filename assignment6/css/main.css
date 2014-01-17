@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5{
 	background-color: rgb(240,242,245);
 	box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid #fff;
-	margin-bottom: 30px;
+	
 }
 
 .innerContainer{
@@ -161,7 +161,7 @@ a.logo{
 	padding:0;
 	border-radius: 4px;
 	width: 218px;
-	box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.28);
+	box-shadow:1px 1px 3px 0px rgba(0, 0, 0, 0.28);
 }
 
 .nptelCourseContainer ul li .courseImage{
@@ -203,6 +203,7 @@ a.logo{
 
 .nptelCourseContainer ul li div:last-child{
 	background-color: rgb(244,246,248);
+	border-top: 1px solid #DCDCDC;
 }
 
 h3.courseType{
@@ -224,34 +225,42 @@ h3.courseType{
 	float: none;
 
 }
-a.courseVideos{
+.courseVideos{
 	
 	width: 25px;
-	height: 30px;
+	height: 35px;
 	background-image: url(../images/videos.png);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
 	float: left;
 	line-height: 30px;
 	font-size: 13px;
 	color: #888888;
-	padding-left: 22px;
-	margin-right: 25px;
+	margin-left: 14px;
+
+	
 }
-a.courseNotes{
+.courseNotes{
 	
 	width: 25px;
 	height: 35px;
 	background-image: url(../images/notes.png);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
 	float: left;
 	font-size: 13px;
 	color: #888888;
-	padding-left: 18px
+	
 
 }
 
+.More{
+	line-height: 35px;
+	font-size: 13px;
+	color: #225588;
+	margin-right: 14px;
+
+}
 .footer{
 	border-top: 1px solid #cecece;
 	line-height: 38px;  
@@ -303,9 +312,29 @@ a.courseNotes{
 	line-height: 13px;
 	color: #888888;
 	font-weight: normal;
+
+}
+li div a span.courseCounter{
+	float: left;
+	width: 25px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 7px;
+	margin-right: 20px;
 }
 
 a.clear{
 	clear: both;
 	display: block;
+}
+.nptelCourseContainer ul li ul li:Last-child{
+	border-bottom: none;
+}
+
+.headerShadow{
+	height: 10px;
+	background-image: url(../images/shadowGradient.png);
+	background-repeat: repeat-x;
+	margin-bottom: 20px;
+
 }
