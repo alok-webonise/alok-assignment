@@ -345,3 +345,18 @@ a.clear{
 	border-bottom: none;
 }
 
+span.clear{
+	clear: both;
+	float: none;
+
+}
+
+ .footer .footNav ul li.clear{
+	clear: both;
+	float: none;
+	margin:0;
+	padding: 0;
+
+
+}
+
