@@ -162,8 +162,8 @@ a.logo{
 
 .nptelCourseContainer{
 	float: left;
-	
-	width: 730px;
+	margin-right: 20px;
+	width: 720px;
 }
 
 .nptelCourseContainer ul li{
@@ -236,6 +236,8 @@ h3.courseType{
 .nptelHeading li.clear{
 	clear: both;
 	float: none;
+	margin: 0;
+	padding: 0;
 
 }
 .courseVideos{
