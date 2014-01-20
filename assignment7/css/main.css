@@ -366,6 +366,10 @@ a.facebookSignup {
 .aboutShareist ul li div:nth-child(2) {
     width: 370px;
 }
+.aboutShareist .innerContainer{
+	border-bottom: 1px solid rgb(207,207,207);
+	margin-bottom:45px; 
+}
 
 .footerImage {
     display: block;
