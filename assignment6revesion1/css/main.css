@@ -229,7 +229,7 @@ a.logo {
 .nptelCourseContainer ul li div a {
    float: left;
     width: auto;
-    height:35px;
+    height:auto;
    
 }
 .nptelCourseContainer ul li div a:first-child {
@@ -243,10 +243,7 @@ a.logo {
 	height: 0;
 	margin: 0;
 }
-.nptelCourseContainer ul li div a.More{
-	width: 30px;
-	
-}
+
 
 h3.courseType {
     
@@ -296,10 +293,11 @@ h3.courseType {
 }
 
 .More {
-    line-height: 35px;
+    
     font-size: 13px;
     color: #225588;
-    margin-right: 14px;
+    line-height: 16px;
+    margin-top: 7px;
 }
 
 .footer {
@@ -414,3 +412,14 @@ span.clear {
     height:auto;
     margin-bottom:12px; 
 } 
+
+.courseContentFooter a{
+    margin-right:20px; 
+}
+.courseContentFooter a:first-child{
+    margin-left:14px; 
+}
+.nptelCourseContainer ul li div a.More{
+    margin-right:0;
+    margin-top:10px; 
+}
