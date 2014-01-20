@@ -91,7 +91,6 @@ a.logo {
 }
 
 .slideRight a  .pullDownImage {
-  
     display: block;
     box-shadow: 0px 0px 4px rgba(0,0,0,.15);
 }
@@ -166,16 +165,15 @@ a.logo {
     margin-bottom: 80px;
 }
 
-.nptelCourseContainer ul.nptelCourseDetail{
-	margin-left: -25px;
-
+.nptelCourseContainer ul.nptelCourseDetail {
+    margin-left: -25px;
 }
 
 .nptelCourseDetail li {
     float: left;
     border: 1px solid rgb(204,204,204);
     margin-left: 25px;
-   	margin-bottom: 20px;
+    margin-bottom: 20px;
     padding: 0;
     border-radius: 4px;
     width: 218px;
@@ -186,7 +184,6 @@ a.logo {
     padding: 7px;
     margin-bottom: 15px;
     border-bottom: 1px solid rgb(220,220,220);
-   
 }
 
 .nptelCourseContainer ul li .courseImage img {
@@ -198,11 +195,7 @@ a.logo {
 }
 
 .nptelCourseContainer ul li ul {
-	
-	width: 190px;
-	
-
-   
+    width: 190px;
 }
 
 .nptelCourseContainer ul li ul li {
@@ -213,8 +206,8 @@ a.logo {
     box-shadow: none;
     font-size: 11px;
     color: #222222;
-   	width: 190px;
-   	line-height: 17px;
+    width: 190px;
+    line-height: 17px;
     border-bottom: 1px solid rgb(220,220,220);
     padding-bottom: 5px;
     padding-top: 5px;
@@ -227,27 +220,23 @@ a.logo {
 }
 
 .nptelCourseContainer ul li div a {
-   float: left;
+    float: left;
     width: auto;
-    height:auto;
-   
+    height: auto;
 }
+
 .nptelCourseContainer ul li div a:first-child {
-
-	
 }
+
 .nptelCourseContainer ul li div a.clear {
-	clear: both;
-	float: none;
-	width: 0;
-	height: 0;
-	margin: 0;
+    clear: both;
+    float: none;
+    width: 0;
+    height: 0;
+    margin: 0;
 }
-
 
 h3.courseType {
-    
-  
     line-height: 20px;
     border-bottom: 1px solid #DCDCDC;
 }
@@ -277,7 +266,6 @@ h3.courseType {
     font-size: 13px;
     color: #888888;
     padding-right: 5px;
-  
 }
 
 .courseNotes {
@@ -289,11 +277,10 @@ h3.courseType {
     float: left;
     font-size: 13px;
     color: #888888;
-     padding-right: 5px;
+    padding-right: 5px;
 }
 
 .More {
-    
     font-size: 13px;
     color: #225588;
     line-height: 16px;
@@ -359,14 +346,8 @@ h3.courseType {
 }
 
 li div a span.courseCounter {
-    
-    
-    
     font-size: 13px;
     line-height: 19px;
-   
-    
-   
 }
 
 a.clear {
@@ -389,37 +370,40 @@ span.clear {
     margin: 0;
     padding: 0;
 }
-.footer .footNav{
-	float: left;
+
+.footer .footNav {
+    float: left;
 }
 
-.courseContentContainer
-{
+.courseContentContainer {
     margin-left: 14px;
     margin-right: 14px;
 }
-.nptelCourseContainer ul li div:last-child .courseCounter{
+
+.nptelCourseContainer ul li div:last-child .courseCounter {
     line-height: 22px;
     font-size: 13px;
     margin-top: 7px;
     float: left;
 }
 
-.nptelCourseContainer ul li .courseType a{
+.nptelCourseContainer ul li .courseType a {
     line-height: 20px;
     font-size: 13px;
     width: auto;
-    height:auto;
-    margin-bottom:12px; 
-} 
+    height: auto;
+    margin-bottom: 12px;
+}
 
-.courseContentFooter a{
-    margin-right:20px; 
+.courseContentFooter a {
+    margin-right: 20px;
 }
-.courseContentFooter a:first-child{
-    margin-left:14px; 
+
+.courseContentFooter a:first-child {
+    margin-left: 14px;
 }
-.nptelCourseContainer ul li div a.More{
-    margin-right:0;
-    margin-top:10px; 
+
+.nptelCourseContainer ul li div a.More {
+    margin-right: 0;
+    margin-top: 10px;
 }
