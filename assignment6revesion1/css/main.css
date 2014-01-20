@@ -407,6 +407,10 @@ span.clear {
     float: left;
 }
 
- li div+a{
-    margin-right:25px; 
-}
+.nptelCourseContainer ul li .courseType a{
+    line-height: 20px;
+    font-size: 13px;
+    width: auto;
+    height:auto;
+    margin-bottom:12px; 
+} 
