@@ -55,6 +55,7 @@ h1,h2,h3,h4,p {
     border-radius: 16px;
     text-align: center;
     padding: 7px 13px;
+    font-weight: bold;
 }
 
 .signIn {
