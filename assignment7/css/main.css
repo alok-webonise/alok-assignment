@@ -41,8 +41,7 @@ h1,h2,h3,h4,p {
 
 .header .rightPosition {
     float: right;
-    margin-top: 9px;
-    margin-bottom: 6px;
+   
 }
 
 .header .rightPosition a {
@@ -56,6 +55,8 @@ h1,h2,h3,h4,p {
     text-align: center;
     padding: 7px 13px;
     font-weight: bold;
+     margin-top: 9px;
+    margin-bottom: 6px;
 
 }
 
