@@ -278,6 +278,15 @@ a {
     margin-right: 0;
 }
 
+.banner .innerContainer .journeyOptions ul li div.journeyContainer{
+	margin: 0;
+	padding: 0;
+	 border: 1px solid rgb(226,224,224);
+     width: 148px;
+     height: 220px;
+     overflow:hidden;
+}
+
 .banner .innerContainer .journeyInfo a {
     float: right;
     width: 138px;
@@ -306,22 +315,26 @@ a {
     margin-left: 5px;
 }
 
+
 .banner .innerContainer .journeyInfo a span:nth-child(2) {
     float: left;
 }
 
 .banner .innerContainer .journeyOptions {
+
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 .banner .innerContainer .journeyOptions ul {
     float: left;
     margin-left: -16px;
+
 }
 
 .banner .innerContainer .journeyOptions ul li {
     float: left;
-    width: 148px;
-    border: 1px solid rgb(226,224,224);
+    
+   
     margin-left: 16px;
 }
 
@@ -334,8 +347,8 @@ a {
 }
 
 .journeySymbol {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .journeySymbol img {
@@ -359,7 +372,7 @@ a {
     font-size: 21px;
     color: #cf3e05;
     line-height: 27px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption {
@@ -377,12 +390,90 @@ a {
     line-height: 15px;
 }
 
+.detailButton {
+	display: block;
+	margin: 0 auto;
+	width:91px;
+	padding-bottom: 5px;
+	border: 1px solid rgb(207,207,207);
+	border-radius: 4px;
+	font-size: 11px;
+	font-family: 'Tahoma';
+	line-height: 15px;
+	text-align: center;
+    margin-top: 3px;
+    color: rgb(56,93,170);
+    padding-top: 6px;
+    background-image: url(../images/moreDetailsGradient.png);
+    background-repeat: repeat-x;
+    margin-bottom: 15px;
+}
+
+
 .banner .innerContainer .journeyOptions ul li.clear {
     clear: both;
     float: none;
     width: 0;
     border: none;
+    margin: 0;
 }
+
+.banner{
+    margin-bottom: 25px;
+}
+
+.cityFeatures{
+    float: left;
+    margin-right: 15px;
+    width: 635px;
+    height: 400px;
+    border: 1px dashed #000;
+}
+
+.aboutCity{
+    float: left;
+    width: 325px;
+     height: 400px;
+      border: 1px dashed #000;
+}
+
+.featuresHeading h3{
+    font-family: 'robotothin';
+    font-size: 18px;
+    line-height: 22px;
+    color: #cf3e05;
+    float: left;
+}
+.featuresHeading a{
+    float: right;
+    font-family: 'Tahoma';
+    font-size: 11px;
+    color: #385daa;
+    line-height: 15px;
+}
+
+.cityFeatures ul{
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
+    float: left;
+}
+
+.cityFeatures ul li {
+    float: left;
+}
+
+.cityFeatures ul li div{
+    float: left;
+}
+
+.featuresHotels li div img{
+    max-width: 128px;
+    max-height: 96px;
+}
+.cityFeatures ul li div.clear{
+    clear: both;
+    float: none;
+}
+
 
 .clear {
     float: none;
