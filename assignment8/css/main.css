@@ -426,14 +426,12 @@ a {
     float: left;
     margin-right: 15px;
     width: 635px;
-    height: 400px;
-    
 }
 
 .aboutCity{
     float: left;
     width: 325px;
-     height: 400px;
+    
       
 }
 
@@ -456,6 +454,9 @@ a {
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     float: left;
     width: 100%;
+    border: 1px solid #D6D6D6;
+    margin-bottom: 25px;
+    border-bottom: none;
 }
 
 .cityFeatures ul li {
@@ -469,6 +470,8 @@ a {
 .featuresHotels li div img{
     max-width: 128px;
     max-height: 96px;
+    width: 128px;
+    height: 96px;
 }
 .cityFeatures ul li div.clear{
     clear: both;
@@ -480,6 +483,7 @@ a {
     font-family: 'robotoregular';
     color:#385daa;
     line-height: 15px;
+    margin-bottom: 9px;
 }
 
 #hide {
@@ -488,6 +492,7 @@ a {
 
 .cityFeatures ul li div.rating{
     float: none;
+    margin-bottom:5px; 
 }
  
 .rating input {
@@ -521,11 +526,15 @@ a {
 .onReturn li img{
     max-width: 75px;
     max-height: 55px;
+    width: 75px;
+    height: 55px;
 }
 
 .holidayCities img{
     width: 175px;
     height: 115px;
+    max-width: 175px;
+    max-height: 115px;
 }
 
 .holidayCities div{
@@ -536,6 +545,7 @@ a {
     float: none;
     box-shadow: none;
     width: auto;
+    border: none;
 }
 
 .holidayCities ul li {
@@ -546,15 +556,115 @@ a {
     color: #000;
 }
 
+.aboutCity{
+ box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
 .aboutCity p{
     font-size: 11px;
     font-family: 'Tahoma';
     line-height: 19px
 }
+
+.aboutCity ul li{
+
+}
+
+.aboutCity div img {
+    max-width: 325px;
+    max-height: 238px;
+    height: 238px;
+    width: 325px;
+
+
+
+} 
+
+.featuresHeading{
+    margin-bottom: 12px;
+}
+
+ featuresHotels .journeyFare {
+    margin-bottom: 10px;
+ }
+
+ .featuresHotels li{
+ padding:15px;
+ }
                 
+.subHeading {
+    font-size: 11px;
+    font-family: 'Tahoma';
+    color: #000;
+    line-height:15px;
+}
+.aboutCity h3{
+    font-family: 'robotothin';
+font-size: 18px;
+line-height: 22px;
+color: #CF3E05;
+float: left;
+}
+
+.featuresHotels li div:first-child {
+    margin-right: 12px;
+}
+
+.featuresHotels .detailButton {margin: 0 0;}
 
 
+.onReturn li div:first-child {
+    margin-right: 10px;
+}
+
+.onReturn .detailButton{margin: 0 0;
+}
+
+.onReturn li {
+    padding: 17px 40px 12px 15px; 
+}
+
+
+.cityWhereabouts ul li div:first-child{
+    width: 30px;
+    height: 25px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 15px;
+    background-position: center center;
+}
+
+.language{
+    background-image: url(../images/language.jpg);
+}
+
+.time{
+    background-image: url(../images/time.jpg);
+}
+
+.attraction{
+    background-image: url(../images/attraction.png);
+
+}
+
+.cityWhereabouts ul li div:nth-child(2){
+    float: left;
+    width: 220px;
+}
+
+.cityWhereabouts{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
 .clear {
     float: none;
     clear: both;
+}
+
+.featuresHotels li.clear{
+    clear: both;
+    float: none;
+    padding: 0;
+    margin: 0;
 }
