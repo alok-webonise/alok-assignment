@@ -1,408 +1,390 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Tahoma',Arial,Helvetica,sans-serif;
-	color: #2F2F2F;
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma',Arial,Helvetica,sans-serif;
+    color: #2F2F2F;
 }
 
-ul{
-	list-style: none;
-	margin: 0;
-	padding:0;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-h1,h2,h3{
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
+h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'robotothin';
-    src: url('../fonts/roboto-thin-webfont.eot');
-    src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-thin-webfont.woff') format('woff'),
-         url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+src: url('../fonts/roboto-thin-webfont.eot');
+src: url('../fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/roboto-thin-webfont.woff') format('woff'),
+url('../fonts/roboto-thin-webfont.ttf') format('truetype'),
+url('../fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
 @font-face {
     font-family: 'robotolight';
-    src: url('../fonts/roboto-light-webfont.eot');
-    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-light-webfont.woff') format('woff'),
-         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+src: url('../fonts/roboto-light-webfont.eot');
+src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/roboto-light-webfont.woff') format('woff'),
+url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+font-weight: normal;
+font-style: normal;
 }
-
-
-
 
 @font-face {
     font-family: 'robotomedium';
-    src: url('../fonts/roboto-medium-webfont.eot');
-    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-medium-webfont.woff') format('woff'),
-         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+src: url('../fonts/roboto-medium-webfont.eot');
+src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/roboto-medium-webfont.woff') format('woff'),
+url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+font-weight: normal;
+font-style: normal;
 }
-
-
-
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular-webfont.eot');
-    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff'),
-         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
-         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+src: url('../fonts/roboto-regular-webfont.eot');
+src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/roboto-regular-webfont.woff') format('woff'),
+url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+font-weight: normal;
+font-style: normal;
 }
-
 
 @font-face {
     font-family: 'rupee_foradianregular';
-    src: url('../fonts/rupee_foradian-webfont.eot');
-    src: url('../fonts/rupee_foradian-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/rupee_foradian-webfont.woff') format('woff'),
-         url('../fonts/rupee_foradian-webfont.ttf') format('truetype'),
-         url('../fonts/rupee_foradian-webfont.svg#rupee_foradianregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+src: url('../fonts/rupee_foradian-webfont.eot');
+src: url('../fonts/rupee_foradian-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/rupee_foradian-webfont.woff') format('woff'),
+url('../fonts/rupee_foradian-webfont.ttf') format('truetype'),
+url('../fonts/rupee_foradian-webfont.svg#rupee_foradianregular') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.innerContainer{
-	width: 980px;
-	margin:0 auto;
+.innerContainer {
+    width: 980px;
+    margin: 0 auto;
 }
 
-.header{
-	border-bottom:3px inset rgb(56,93,170);
-	margin-bottom: 25px;
+.header {
+    border-bottom: 3px inset rgb(56,93,170);
+    margin-bottom: 25px;
 }
 
-.header .innerContainer .headerUpper{
-	padding-top: 5px;
-	margin-bottom: 7px;
-
+.header .innerContainer .headerUpper {
+    padding-top: 5px;
+    margin-bottom: 7px;
 }
 
-.header .innerContainer .headerUpper a.logo{
-	float: left;
-	width: 117px;
-	height: 51px;
-	background-image: url(../images/makemytriplogo.jpg);
-	background-repeat: no-repeat;
+.header .innerContainer .headerUpper a.logo {
+    float: left;
+    width: 117px;
+    height: 51px;
+    background-image: url(../images/makemytriplogo.jpg);
+    background-repeat: no-repeat;
 }
 
-.header .innerContainer .headerUpper .rightMove{
-	float: right;
+.header .innerContainer .headerUpper .rightMove {
+    float: right;
 }
 
-.header .innerContainer .headerUpper .rightMove a.makeMyTripIcon{
-
-	float: left;
-	width: 20px;
-	height: 20px;
-	background-image: url(../images/makemytripicon.jpg);
-	background-repeat: no-repeat;
+.header .innerContainer .headerUpper .rightMove a.makeMyTripIcon {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/makemytripicon.jpg);
+    background-repeat: no-repeat;
 }
 
-.header .innerContainer .headerUpper .rightMove ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	float: left;
-	margin-bottom: 6px;
-
+.header .innerContainer .headerUpper .rightMove ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-bottom: 6px;
 }
 
-.header .innerContainer .headerUpper .rightMove ul li{
-	float: left;
-	margin-right:8px; 
-	border-right: 1px solid rgb(221,222,224);
+.header .innerContainer .headerUpper .rightMove ul li {
+    float: left;
+    margin-right: 8px;
+    border-right: 1px solid rgb(221,222,224);
 }
 
 .header .innerContainer .headerUpper .rightMove ul li.lastElement {
-	margin-right: 0;
-	border-right: none;
+    margin-right: 0;
+    border-right: none;
 }
 
 .header .innerContainer .headerUpper .rightMove ul li a {
-	color: rgb(61,109,197);
-	font-size: 11px;
-	line-height: 16px;
-	padding-right: 8px;
+    color: rgb(61,109,197);
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 8px;
 }
 
-.header .innerContainer .headerUpper .rightMove ul li.clear{
-	clear: both;
-	float: none;
-	margin: 0;
-	padding: 0;
-	border-right:none;
-
+.header .innerContainer .headerUpper .rightMove ul li.clear {
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-right: none;
 }
 
 .header .innerContainer .headerUpper .rightMove a.locationSelector {
-	float: right;
-	width: 81px;
-	height: 20px;
-	font-size: 11px;
-	font-family: 'Arial' 'Helvetica' 'sans-serif';
-	color: rgb(176,174,196);
-	border:1px solid rgb(176,174,196);
-	border-radius: 4px;
-	text-align: center;
-	line-height: 15px;
-
-
+    float: right;
+    width: 81px;
+    height: 20px;
+    font-size: 11px;
+    font-family: 'Arial' 'Helvetica' 'sans-serif';
+    color: rgb(176,174,196);
+    border: 1px solid rgb(176,174,196);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 15px;
 }
 
-.header .innerContainer .headerUpper .rightMove a.locationSelector .nationSelector{
-
-	float: left;
-	width: 15px;
-	height: 10px;
-	background-image: url(../images/nationflag.png);
-	background-repeat: no-repeat;
-	margin-left: 9px;
-	margin-top: 5px;
-	margin-right: 5px;
+.header .innerContainer .headerUpper .rightMove a.locationSelector .nationSelector {
+    float: left;
+    width: 15px;
+    height: 10px;
+    background-image: url(../images/nationflag.png);
+    background-repeat: no-repeat;
+    margin-left: 9px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
-.header .innerContainer .headerUpper .rightMove a.locationSelector .countryName{
-	margin-top: 3px;
-	width: 25px;
-	height: 12px;
-	float: left;
-	padding-right: 17px;
-	background-image: url(../images/dropdownSelector.jpg);
-	background-repeat: no-repeat;
-	background-position: right center;
-
+.header .innerContainer .headerUpper .rightMove a.locationSelector .countryName {
+    margin-top: 3px;
+    width: 25px;
+    height: 12px;
+    float: left;
+    padding-right: 17px;
+    background-image: url(../images/dropdownSelector.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
-.headerLower{
-
+.headerLower {
 }
 
-.headerLower ul{
-	list-style: none;
-	margin: 0;
-	padding:0;
-	float: left;
-	
+.headerLower ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
 }
 
-.headerLower ul li{
-	float: left;
-	margin-right: 8px;
-	border-radius: 6px;
-	border: 1px solid rgb(195,205,230);
-	border-bottom: 0;
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-	background-image: url(../images/menubarGradient.png);
-	background-repeat: repeat;
+.headerLower ul li {
+    float: left;
+    margin-right: 8px;
+    border-radius: 6px;
+    border: 1px solid rgb(195,205,230);
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-image: url(../images/menubarGradient.png);
+    background-repeat: repeat;
 }
 
-.headerLower ul li a{
-	font-family: 'Tahoma' Arial sans-serif;
-	font-size: 11px;
-	line-height: 15px;
-	text-align: center;
-	padding: 8px 16px;
-	display: block;
-	color: rgb(61,109,183);
+.headerLower ul li a {
+    font-family: 'Tahoma' Arial sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    padding: 8px 16px;
+    display: block;
+    color: rgb(61,109,183);
 }
 
 .headerLower ul li.lastElement {
-	margin-left:180px;
-	margin-right: 0px; 
-
+    margin-left: 180px;
+    margin-right: 0px;
 }
 
-.headerLower ul li.clear { 
-	clear: both;
-	float: none;
-	margin: 0;
-	padding:0;
-	border: none;
-} 
-
-.banner .innerContainer h3.currentLocation{
-	font-family: 'robotothin';
-	font-size: 22px;
-	line-height: 25px;
-	color: #cf3e05;
-	padding-bottom: 10px;
-	border-bottom: 3px solid rgb(255,193,54);
+.headerLower ul li.clear {
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-.banner .innerContainer .journeyInfo{
-
-	border-bottom: 1px solid rgba(0,0,0,.16);
-	box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
-	margin-bottom:30px;
+.banner .innerContainer h3.currentLocation {
+    font-family: 'robotothin';
+    font-size: 22px;
+    line-height: 25px;
+    color: #cf3e05;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(255,193,54);
 }
 
+.banner .innerContainer .journeyInfo {
+    border-bottom: 1px solid rgba(0,0,0,.16);
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
+    margin-bottom: 30px;
+}
 
-.banner .innerContainer .journeyInfo ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	float: left;
+.banner .innerContainer .journeyInfo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
 }
 
 .banner .innerContainer .journeyInfo ul li {
-	font-size: 11px;
-	line-height: 15px;
-	font-family: 'Tahoma';
-	color: #2f2f2f;
-	float: left;
-	width: 85px;
-	margin-left: 15px;
-	padding:8px 0;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Tahoma';
+    color: #2f2f2f;
+    float: left;
+    width: 85px;
+    margin-left: 15px;
+    padding: 8px 0;
 }
 
-.banner .innerContainer .journeyInfo ul li:first-child{
-	width: 175px;
+.banner .innerContainer .journeyInfo ul li:first-child {
+    width: 175px;
 }
 
-.banner .innerContainer .journeyInfo ul li span{
-	display: block;
+.banner .innerContainer .journeyInfo ul li span {
+    display: block;
 }
 
-.banner .innerContainer .journeyInfo ul li span:nth-child(2){
-	color:#cf3e05;
-}
-.banner .innerContainer .journeyInfo ul li.clear{
-	clear: both;
-	float: none;
-	width: 0;
-	padding: 0;
-	margin-right: 0;
+.banner .innerContainer .journeyInfo ul li span:nth-child(2) {
+    color: #cf3e05;
 }
 
-.banner .innerContainer .journeyInfo a{
-	float: right;
-	width: 138px;
-	height: 24px;
-	border: 1px solid rgb(232,149,67);
-	border-radius: 4px;
-	text-align: center;
-	color: rgb(223,101,5);
-	background-image: url(../images/searchButtonGradient.jpg);
-	background-repeat: repeat-x;
-	margin-top: 8px;
-	font-size: 15px;
-	line-height: 21px;
-	padding-top: 4px;
-	margin-right: 8px;
+.banner .innerContainer .journeyInfo ul li.clear {
+    clear: both;
+    float: none;
+    width: 0;
+    padding: 0;
+    margin-right: 0;
+}
+
+.banner .innerContainer .journeyInfo a {
+    float: right;
+    width: 138px;
+    height: 24px;
+    border: 1px solid rgb(232,149,67);
+    border-radius: 4px;
+    text-align: center;
+    color: rgb(223,101,5);
+    background-image: url(../images/searchButtonGradient.jpg);
+    background-repeat: repeat-x;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 21px;
+    padding-top: 4px;
+    margin-right: 8px;
 }
 
 .banner .innerContainer .journeyInfo a .searchRedefineImage {
-	float: left;
-	width: 14px;
-	height: 14px;
-	background-image: url(../images/redefineSearch.jpg);
-	background-repeat: no-repeat;
-	margin-top: 4px;
-	margin-right: 6px;
-	margin-left: 5px;
-}
-.banner .innerContainer .journeyInfo a span:nth-child(2){
-	float: left;
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/redefineSearch.jpg);
+    background-repeat: no-repeat;
+    margin-top: 4px;
+    margin-right: 6px;
+    margin-left: 5px;
 }
 
-.banner .innerContainer .journeyOptions{
-
+.banner .innerContainer .journeyInfo a span:nth-child(2) {
+    float: left;
 }
 
-.banner .innerContainer .journeyOptions ul{
-	float: left;
-	margin-left: -16px;
+.banner .innerContainer .journeyOptions {
 }
 
-.banner .innerContainer .journeyOptions ul li{
-	float: left;
-	width: 148px;
-	border: 1px solid rgb(226,224,224);
-	margin-left: 16px;
-
+.banner .innerContainer .journeyOptions ul {
+    float: left;
+    margin-left: -16px;
 }
 
-.banner .innerContainer .journeyOptions ul li div{
-	margin-left: 25px;
+.banner .innerContainer .journeyOptions ul li {
+    float: left;
+    width: 148px;
+    border: 1px solid rgb(226,224,224);
+    margin-left: 16px;
 }
 
-.banner .innerContainer .journeyOptions ul li div span{
-	display: block;
+.banner .innerContainer .journeyOptions ul li div {
+    margin-left: 25px;
 }
 
-.journeySymbol{
-	margin-top: 15px;
-	margin-bottom: 15px;
+.banner .innerContainer .journeyOptions ul li div span {
+    display: block;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .destinationName{
-	font-family:'robotoregular';
-	font-size: 15px;
-	line-height: 15px;
-	color: #385daa;
-	margin-bottom: 9px;
+.journeySymbol {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .journeyFare{
-	font-family: 'rupee_foradianregular';
-	font-size: 21px;
-	color: #cf3e05;
-	line-height: 27px;
-	margin-bottom: 17px;
+.journeySymbol img {
+    width: 100px;
+    height: 50px;
+    max-width: 100px;
+    max-height: 50px;
+    display: block;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption{
-
-	margin-bottom: 27px;
-}
-.journeyOrigin{
-	margin-bottom: 7px;
-}
-
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption , .journeyOrigin{
-	color: #878787;
-	font-size: 11px;
-	font-family: 'Tahoma';
-	line-height: 15px;
+.banner .innerContainer .journeyOptions ul li div.journeyOfferings .destinationName {
+    font-family: 'robotoregular';
+    font-size: 15px;
+    line-height: 15px;
+    color: #385daa;
+    margin-bottom: 8px;
 }
 
-.banner .innerContainer .journeyOptions ul li.clear{
-	clear: both;
-	float: none;
-	width: 0;
-	border: none;
+.banner .innerContainer .journeyOptions ul li div.journeyOfferings .journeyFare {
+    font-family: 'rupee_foradianregular';
+    font-size: 21px;
+    color: #cf3e05;
+    line-height: 27px;
+    margin-bottom: 15px;
 }
 
-.clear{
-	float: none;
-	clear: both;
+.banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption {
+    margin-bottom: 25px;
+}
+
+.journeyOrigin {
+    margin-bottom: 7px;
+}
+
+.banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption , .journeyOrigin {
+    color: #878787;
+    font-size: 11px;
+    font-family: 'Tahoma';
+    line-height: 15px;
+}
+
+.banner .innerContainer .journeyOptions ul li.clear {
+    clear: both;
+    float: none;
+    width: 0;
+    border: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
 }
