@@ -11,7 +11,7 @@ ul {
     padding: 0;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -367,7 +367,7 @@ a {
     margin-bottom: 8px;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .journeyFare {
+ .journeyFare {
     font-family: 'rupee_foradianregular';
     font-size: 21px;
     color: #cf3e05;
@@ -383,7 +383,7 @@ a {
     margin-bottom: 7px;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption , .journeyOrigin {
+.travelOption , .journeyOrigin {
     color: #878787;
     font-size: 11px;
     font-family: 'Tahoma';
@@ -427,14 +427,14 @@ a {
     margin-right: 15px;
     width: 635px;
     height: 400px;
-    border: 1px dashed #000;
+    
 }
 
 .aboutCity{
     float: left;
     width: 325px;
      height: 400px;
-      border: 1px dashed #000;
+      
 }
 
 .featuresHeading h3{
@@ -455,6 +455,7 @@ a {
 .cityFeatures ul{
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     float: left;
+    width: 100%;
 }
 
 .cityFeatures ul li {
@@ -473,6 +474,84 @@ a {
     clear: both;
     float: none;
 }
+
+.cityFeatures h4{
+    font-size: 14px;
+    font-family: 'robotoregular';
+    color:#385daa;
+    line-height: 15px;
+}
+
+#hide {
+    display:none;
+}
+
+.cityFeatures ul li div.rating{
+    float: none;
+}
+ 
+.rating input {
+    position:absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0;
+    cursor:pointer;
+    width:17px;
+}
+ 
+.rating span {
+    width:24px;
+    height:16px;
+    line-height:16px;
+    padding:1px 22px 1px 0; /* 1px FireFox fix */
+    background:url(../images/stars.png) no-repeat -22px 0;
+}
+
+.rating input:checked + span {
+    background-position:-22px 0;
+}
+ 
+
+ 
+.rating input:checked + span ~ span {
+    background-position:0 0;
+}
+
+.onReturn li img{
+    max-width: 75px;
+    max-height: 55px;
+}
+
+.holidayCities img{
+    width: 175px;
+    height: 115px;
+}
+
+.holidayCities div{
+    float: left;
+}
+
+.holidayCities ul{
+    float: none;
+    box-shadow: none;
+    width: auto;
+}
+
+.holidayCities ul li {
+    float: none;
+    color: #878787;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000;
+}
+
+.aboutCity p{
+    font-size: 11px;
+    font-family: 'Tahoma';
+    line-height: 19px
+}
+                
 
 
 .clear {
