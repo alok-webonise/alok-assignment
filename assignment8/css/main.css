@@ -283,7 +283,7 @@ a {
 	padding: 0;
 	 border: 1px solid rgb(226,224,224);
      width: 148px;
-     height: 220px;
+     min-height: 220px;
      overflow:hidden;
 }
 
@@ -372,7 +372,7 @@ a {
     font-size: 21px;
     color: #cf3e05;
     line-height: 27px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption {
@@ -530,6 +530,14 @@ a {
     height: 55px;
 }
 
+
+.holidayCities{
+    border: 1px solid rgb(214,214,214);
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
 .holidayCities img{
     width: 175px;
     height: 115px;
@@ -553,7 +561,7 @@ a {
     color: #878787;
     font-size: 11px;
     line-height: 15px;
-    color: #000;
+    
 }
 
 .aboutCity{
@@ -597,6 +605,7 @@ a {
     font-family: 'Tahoma';
     color: #000;
     line-height:15px;
+    display: block;
 }
 .aboutCity h3{
     font-family: 'robotothin';
@@ -657,6 +666,11 @@ float: left;
     margin-right: 25px;
     margin-bottom: 25px;
 }
+
+.holidayCities div:first-child {
+    margin-right: 15px;
+
+}
 .clear {
     float: none;
     clear: both;
@@ -667,4 +681,42 @@ float: left;
     float: none;
     padding: 0;
     margin: 0;
+}
+
+.cityWhereabouts ul li div span:first-child {
+    font-family: 'Tahoma Bold';
+    font-size: 13px;
+    color: #000;
+    line-height: 15px;
+}
+
+.journeyContainer del{
+    font-family:'rupee_foradianregular';
+    font-size: 15px;
+    color: #CF3E05;
+}
+
+.holidayCities div.clear{
+    clear: both;
+    float: none;
+} 
+
+.cityWhereabouts ul{
+    margin-bottom:38px;
+}
+
+a.query{
+    display: block;
+    width: 270px;
+    height: 22px;
+    background-image: url(../images/queryGradient.jpg);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    color: #e8e6d8;
+    padding-top: 9px;
+    
+
 }
