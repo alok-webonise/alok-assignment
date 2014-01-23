@@ -87,7 +87,7 @@ a {
 }
 
 .header .innerContainer .headerUpper {
-    padding-top: 5px;
+    margin-top: 5px;
     margin-bottom: 7px;
 }
 
@@ -389,6 +389,7 @@ a {
     font-size: 11px;
     font-family: 'Tahoma';
     line-height: 15px;
+    display: block;
 }
 
 .detailButton {
@@ -441,6 +442,7 @@ a {
 .aboutCity{
     float: left;
     width: 325px;
+    border:1px solid rgb(214,214,214);
     
       
 }
@@ -502,7 +504,7 @@ a {
 }
 
 .cityFeatures ul li div.rating{
-    float: none;
+    
     margin-bottom:5px; 
 }
  
@@ -612,7 +614,7 @@ a {
  }
 
  .featuresHotels li{
- padding:15px 19px;px;
+ padding:15px 18px;
   border-bottom: 1px solid rgb(229,229,229);
  }
                 
@@ -746,7 +748,7 @@ a.query{
 
 .cityFeatures ul li .packagePrice div{
     margin-right: 0;
-    float: none;
+    
 }
 
 .cityFeatures ul li .packagePrice div span{
@@ -799,6 +801,11 @@ div.facinatingDeals {
     font-size: 15px;
     line-height: 15px;
 }
+
+
+.onReturn li div:nth-child(2) {}
+
+
 
 
 
