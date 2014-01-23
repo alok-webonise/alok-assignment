@@ -526,7 +526,7 @@ a {
     height: 16px;
     line-height: 16px;
     padding: 1px 22px 1px 0;
- /* 1px FireFox fix */
+ 
     background: url(../images/stars.png) no-repeat -22px 0;
 }
 
@@ -844,4 +844,8 @@ div.facinatingDeals {
     padding-right: 0;
     border: none;
     margin-right: 5px;
+}
+
+.featuresHotels .journeyFare {
+    margin-bottom: 8px;
 }
