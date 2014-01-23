@@ -737,11 +737,17 @@ a.query {
 
 .cityFeatures ul li div.packagePrice {
     float: none;
+    margin-bottom: 10px;
 }
 
-.cityFeatures ul li .packagePrice div {
-    margin-right: 0;
+.cityFeatures ul li div.packagePrice div:first-child {
+
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgb(204,204,204);
 }
+
+
 
 .cityFeatures ul li .packagePrice div span {
     display: block;
@@ -825,4 +831,16 @@ div.facinatingDeals {
 
 .facinatingDeals ul {
     margin-bottom: 20px;
+}
+
+.cityFeatures ul li.clear {
+    float: none;
+    padding: 0;
+    clear: both;
+}
+
+.cityFeatures ul li .packagePrice div.packageOffers div.offerValue{
+    padding-right: 0;
+    border: none;
+    margin-right: 5px;
 }
