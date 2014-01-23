@@ -378,6 +378,7 @@ a {
     color: #cf3e05;
     line-height: 27px;
     margin-bottom: 15px;
+    display: block;
 }
 
 .banner .innerContainer .journeyOptions ul li div.journeyOfferings .travelOption {
