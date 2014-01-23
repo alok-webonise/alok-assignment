@@ -17,8 +17,10 @@ h1,h2,h3,h4 {
     font-weight: normal;
 }
 
-p {margin: 0;
-padding: 0;}
+p {
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: 'robotothin';
@@ -87,7 +89,6 @@ a {
 .header {
     border-bottom: 3px inset rgb(56,93,170);
     margin-bottom: 25px;
-
 }
 
 .header .innerContainer .headerUpper {
@@ -240,7 +241,8 @@ a {
 }
 
 .banner .innerContainer .journeyInfo {
-    border-bottom: 1px solid rgba(0,0,0,.16);
+    border: 1px solid rgba(0,0,0,.16);
+    border-top: 0;
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     margin-bottom: 30px;
 }
@@ -265,6 +267,7 @@ a {
 
 .banner .innerContainer .journeyInfo ul li:first-child {
     width: 175px;
+    border-right: 1px solid rgb(229,229,229);
 }
 
 .banner .innerContainer .journeyInfo ul li span {
@@ -283,13 +286,13 @@ a {
     margin-right: 0;
 }
 
-.banner .innerContainer .journeyOptions ul li div.journeyContainer{
-	margin: 0;
-	padding: 0;
-	 border: 1px solid rgb(226,224,224);
-     width: 148px;
-     min-height: 220px;
-     overflow:hidden;
+.banner .innerContainer .journeyOptions ul li div.journeyContainer {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(226,224,224);
+    width: 148px;
+    min-height: 220px;
+    overflow: hidden;
 }
 
 .banner .innerContainer .journeyInfo a {
@@ -320,32 +323,28 @@ a {
     margin-left: 5px;
 }
 
-
 .banner .innerContainer .journeyInfo a span:nth-child(2) {
     float: left;
 }
 
 .banner .innerContainer .journeyOptions {
-
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 .banner .innerContainer .journeyOptions ul {
     float: left;
     margin-left: -16px;
-
 }
 
 .banner .innerContainer .journeyOptions ul li {
     float: left;
-    
-   
     margin-left: 16px;
 }
 
 .banner .innerContainer .journeyOptions ul li div {
     margin-left: 25px;
     margin-right: 25px;
+    text-align: center;
 }
 
 .banner .innerContainer .journeyOptions ul li div span {
@@ -373,7 +372,7 @@ a {
     margin-bottom: 8px;
 }
 
- .journeyFare {
+.journeyFare {
     font-family: 'rupee_foradianregular';
     font-size: 21px;
     color: #cf3e05;
@@ -398,16 +397,16 @@ a {
 }
 
 .detailButton {
-	display: block;
-	margin: 0 auto;
-	width:91px;
-	padding-bottom: 5px;
-	border: 1px solid rgb(207,207,207);
-	border-radius: 4px;
-	font-size: 11px;
-	font-family: 'Tahoma';
-	line-height: 15px;
-	text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 91px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(207,207,207);
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: 'Tahoma';
+    line-height: 15px;
+    text-align: center;
     margin-top: 3px;
     color: rgb(56,93,170);
     padding-top: 6px;
@@ -415,7 +414,6 @@ a {
     background-repeat: repeat-x;
     margin-bottom: 15px;
 }
-
 
 .banner .innerContainer .journeyOptions ul li.clear {
     clear: both;
@@ -425,41 +423,40 @@ a {
     margin: 0;
 }
 
-.banner{
+.banner {
     margin-bottom: 25px;
 }
 
-.cityFeatures{
+.cityFeatures {
     float: left;
     margin-right: 15px;
     width: 635px;
 }
 
-
 .aboutCityHeader {
     float: left;
-    margin-bottom:15px;
-    font-family:'robotothin';
+    margin-bottom: 15px;
+    font-family: 'robotothin';
     font-size: 18px;
-    color: #cf3e05; 
+    color: #cf3e05;
+    line-height: 18px;
 }
 
-.aboutCity{
+.aboutCity {
     float: left;
     width: 325px;
-    border:1px solid rgb(214,214,214);
-    
-      
+    border: 1px solid rgb(214,214,214);
 }
 
-.featuresHeading h3{
+.featuresHeading h3 {
     font-family: 'robotothin';
     font-size: 18px;
     line-height: 22px;
     color: #cf3e05;
     float: left;
 }
-.featuresHeading a{
+
+.featuresHeading a {
     float: right;
     font-family: 'Tahoma';
     font-size: 11px;
@@ -467,7 +464,7 @@ a {
     line-height: 15px;
 }
 
-.cityFeatures ul{
+.cityFeatures ul {
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     float: left;
     width: 100%;
@@ -480,68 +477,67 @@ a {
     float: left;
 }
 
-.cityFeatures ul li div{
+.cityFeatures ul li div {
     float: left;
 }
 
-.featuresHotels li div img{
+.featuresHotels li div img {
     max-width: 128px;
     max-height: 96px;
     width: 128px;
     height: 96px;
     display: block;
 }
-.cityFeatures ul li div.clear{
+
+.cityFeatures ul li div.clear {
     clear: both;
     float: none;
 }
 
-.cityFeatures h4{
+.cityFeatures h4 {
     font-size: 14px;
     font-family: 'robotoregular';
-    color:#385daa;
+    color: #385daa;
     line-height: 15px;
     margin-bottom: 9px;
 }
 
 #hide {
-    display:none;
+    display: none;
 }
 
-.cityFeatures ul li div.rating{
-    
-    margin-bottom:5px; 
+.cityFeatures ul li div.rating {
+    margin-bottom: 5px;
 }
- 
+
 .rating input {
-    position:absolute;
-    filter:alpha(opacity=0);
-    -moz-opacity:0;
-    -khtml-opacity:0;
-    opacity:0;
-    cursor:pointer;
-    width:17px;
+    position: absolute;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 17px;
 }
- 
+
 .rating span {
-    width:24px;
-    height:16px;
-    line-height:16px;
-    padding:1px 22px 1px 0; /* 1px FireFox fix */
-    background:url(../images/stars.png) no-repeat -22px 0;
+    width: 24px;
+    height: 16px;
+    line-height: 16px;
+    padding: 1px 22px 1px 0;
+ /* 1px FireFox fix */
+    background: url(../images/stars.png) no-repeat -22px 0;
 }
 
 .rating input:checked + span {
-    background-position:-22px 0;
+    background-position: -22px 0;
 }
- 
 
- 
 .rating input:checked + span ~ span {
-    background-position:0 0;
+    background-position: 0 0;
 }
 
-.onReturn li img{
+.onReturn li img {
     max-width: 75px;
     max-height: 55px;
     width: 75px;
@@ -549,15 +545,13 @@ a {
     display: block;
 }
 
-
-.holidayCities{
+.holidayCities {
     border: 1px solid rgb(214,214,214);
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     margin-bottom: 25px;
-
 }
 
-.holidayCities img{
+.holidayCities img {
     width: 175px;
     height: 115px;
     max-width: 175px;
@@ -565,13 +559,11 @@ a {
     display: block;
 }
 
-.holidayCities div{
+.holidayCities div {
     float: left;
-    padding:15px;
-
 }
 
-.holidayCities ul{
+.holidayCities ul {
     float: none;
     box-shadow: none;
     width: auto;
@@ -582,28 +574,26 @@ a {
     float: none;
     color: #878787;
     font-size: 11px;
-    line-height: 15px;
-    
+    line-height: 18px;
 }
 
-.aboutCity{
- box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
+.aboutCity {
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-.aboutCity p{
+.aboutCity p {
     font-size: 11px;
     font-family: 'Tahoma';
     line-height: 19px;
     margin-bottom: 20px;
 }
 
-.aboutCity p:nth-child(2){
+.aboutCity p:nth-child(2) {
     margin-bottom: 30px;
 }
-   
 
-.aboutCity ul li{
-
+.aboutCity ul li {
+    margin-bottom: 15px;
 }
 
 .aboutCity div img {
@@ -612,59 +602,58 @@ a {
     height: 238px;
     width: 325px;
     display: block;
+}
 
-
-
-} 
-
-.featuresHeading{
+.featuresHeading {
     margin-bottom: 12px;
 }
 
- featuresHotels .journeyFare {
+featuresHotels .journeyFare {
     margin-bottom: 10px;
- }
+}
 
- .featuresHotels li{
- padding:15px 18px;
-  border-bottom: 1px solid rgb(229,229,229);
- }
-                
+.featuresHotels li {
+    padding: 15px 18px;
+    border-bottom: 1px solid rgb(229,229,229);
+}
+
 .subHeading {
     font-size: 11px;
     font-family: 'Tahoma';
     color: #000;
-    line-height:15px;
+    line-height: 15px;
     display: block;
 }
-.aboutCity h3{
+
+.aboutCity h3 {
     font-family: 'robotothin';
-font-size: 18px;
-line-height: 22px;
-color: #CF3E05;
-float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CF3E05;
+    float: left;
 }
 
 .featuresHotels li div:first-child {
     margin-right: 12px;
 }
 
-.featuresHotels .detailButton {margin: 0 0;}
-
+.featuresHotels .detailButton {
+    margin: 0 0;
+}
 
 .onReturn li div:first-child {
     margin-right: 10px;
 }
 
-.onReturn .detailButton{margin: 0 0;
+.onReturn .detailButton {
+    margin: 0 0;
 }
 
 .onReturn li {
-    padding: 17px 40px 12px 15px; 
+    padding: 17px 40px 12px 15px;
 }
 
-
-.cityWhereabouts ul li div:first-child{
+.cityWhereabouts ul li div:first-child {
     width: 30px;
     height: 25px;
     background-repeat: no-repeat;
@@ -673,42 +662,35 @@ float: left;
     background-position: center center;
 }
 
-.language{
+.language {
     background-image: url(../images/language.jpg);
 }
 
-.time{
+.time {
     background-image: url(../images/time.jpg);
 }
 
-.attraction{
+.attraction {
     background-image: url(../images/attraction.png);
-
 }
 
-.cityWhereabouts ul li div:nth-child(2){
+.cityWhereabouts ul li div:nth-child(2) {
     float: left;
     width: 220px;
 }
 
-.cityWhereabouts{
+.cityWhereabouts {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
 }
 
-.holidayCities div:first-child {
-    margin-right: 15px;
-    
-    padding-right: 0;
-
-}
 .clear {
     float: none;
     clear: both;
 }
 
-.featuresHotels li.clear{
+.featuresHotels li.clear {
     clear: both;
     float: none;
     padding: 0;
@@ -722,23 +704,24 @@ float: left;
     line-height: 15px;
 }
 
-.journeyContainer del{
-    font-family:'rupee_foradianregular';
+.journeyContainer del {
+    font-family: 'rupee_foradianregular';
     font-size: 15px;
     color: #CF3E05;
+    padding-left: 10px;
 }
 
-.holidayCities div.clear{
+.holidayCities div.clear {
     clear: both;
     float: none;
     padding: 0;
-} 
-
-.cityWhereabouts ul{
-    margin-bottom:38px;
 }
 
-a.query{
+.cityWhereabouts ul {
+    margin-bottom: 25px;
+}
+
+a.query {
     display: block;
     width: 270px;
     height: 22px;
@@ -750,53 +733,44 @@ a.query{
     line-height: 15px;
     color: #e8e6d8;
     padding-top: 9px;
-    
-
 }
 
-.cityFeatures ul li div.packagePrice{
+.cityFeatures ul li div.packagePrice {
     float: none;
 }
 
-.cityFeatures ul li .packagePrice div{
+.cityFeatures ul li .packagePrice div {
     margin-right: 0;
-    
 }
 
-.cityFeatures ul li .packagePrice div span{
+.cityFeatures ul li .packagePrice div span {
     display: block;
 }
 
 div.journeySpecial {
-background-color: rgb(250,250,250);
-border-left: 1px solid rgb(230,230,230);
-
-
+    background-color: rgb(250,250,250);
+    border-left: 1px solid rgb(230,230,230);
+    padding: 15px;
 }
 
 div.facinatingDeals {
     padding-left: 0;
 }
 
-.holidayCities .detailButton {
-    margin: 0 0;
-}
-
 .journeySpecial .journeyFare {
     display: block;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-
-.cityFeatures ul li .packagePrice div.packageOffers{
+.cityFeatures ul li .packagePrice div.packageOffers {
     float: left;
 }
 
-.cityFeatures ul li .packagePrice div.packageOffers div{
+.cityFeatures ul li .packagePrice div.packageOffers div {
     float: left;
 }
 
-.cityFeatures ul li .packagePrice div.offerValue{
+.cityFeatures ul li .packagePrice div.offerValue {
     width: 25px;
     height: 25px;
     background-image: url(../images/save.jpg);
@@ -808,8 +782,8 @@ div.facinatingDeals {
     clear: both;
 }
 
-.offerCount{
-    color:#647f21;
+.offerCount {
+    color: #647f21;
     font-size: 15px;
     line-height: 15px;
 }
@@ -818,21 +792,37 @@ div.facinatingDeals {
     margin: 0;
 }
 
-.dropDown{
-
+.dropDown {
     background-image: url(../images/dropDown.png);
     background-repeat: no-repeat;
-    background-position:90% 50%;
+    background-position: 90% 50%;
 }
 
-.aboutCity div:first-child{
+.aboutCity div:first-child {
     margin-bottom: 10px;
 }
 
+.facinatingDeals .travelOption {
+    margin-bottom: 15px;
+}
 
-.onReturn li div:nth-child(2) {}
+.holidayDeals {
+    padding: 15px;
+}
 
+.holidayDeals div:first-child {
+    margin-right: 15px;
+}
 
+.journeySpecial {
+    text-align: center;
+}
 
+.journeySpecial ul {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
-
+.facinatingDeals ul {
+    margin-bottom: 20px;
+}
