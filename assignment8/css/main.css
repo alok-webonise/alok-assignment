@@ -205,15 +205,15 @@ a {
 .headerLower ul li a {
     font-family: 'Tahoma' Arial sans-serif;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 16px;
     text-align: center;
-    padding: 8px 16px;
+    padding: 6px 16px;
     display: block;
     color: rgb(61,109,183);
 }
 
 .headerLower ul li.lastElement {
-    margin-left: 180px;
+    margin-left: 178px;
     margin-right: 0px;
 }
 
@@ -769,7 +769,8 @@ div.facinatingDeals {
 }
 
 .journeySpecial .journeyFare {
-    margin-bottom: 12px;
+    display: block;
+    margin-bottom:10px;
 }
 
 
