@@ -17,6 +17,9 @@ h1,h2,h3,h4 {
     font-weight: normal;
 }
 
+p {margin: 0;
+padding: 0;}
+
 @font-face {
     font-family: 'robotothin';
 src: url('../fonts/roboto-thin-webfont.eot');
@@ -84,11 +87,12 @@ a {
 .header {
     border-bottom: 3px inset rgb(56,93,170);
     margin-bottom: 25px;
+
 }
 
 .header .innerContainer .headerUpper {
-    margin-top: 5px;
-    margin-bottom: 7px;
+    padding-top: 5px;
+    padding-bottom: 7px;
 }
 
 .header .innerContainer .headerUpper a.logo {
@@ -109,6 +113,7 @@ a {
     height: 20px;
     background-image: url(../images/makemytripicon.jpg);
     background-repeat: no-repeat;
+    margin-right: 8px;
 }
 
 .header .innerContainer .headerUpper .rightMove ul {
@@ -588,8 +593,14 @@ a {
 .aboutCity p{
     font-size: 11px;
     font-family: 'Tahoma';
-    line-height: 19px
+    line-height: 19px;
+    margin-bottom: 20px;
 }
+
+.aboutCity p:nth-child(2){
+    margin-bottom: 30px;
+}
+   
 
 .aboutCity ul li{
 
@@ -600,6 +611,7 @@ a {
     max-height: 238px;
     height: 238px;
     width: 325px;
+    display: block;
 
 
 
@@ -800,6 +812,21 @@ div.facinatingDeals {
     color:#647f21;
     font-size: 15px;
     line-height: 15px;
+}
+
+.packagePrice .journeyFare {
+    margin: 0;
+}
+
+.dropDown{
+
+    background-image: url(../images/dropDown.png);
+    background-repeat: no-repeat;
+    background-position:90% 50%;
+}
+
+.aboutCity div:first-child{
+    margin-bottom: 10px;
 }
 
 
