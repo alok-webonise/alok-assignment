@@ -300,7 +300,8 @@ a {
     padding: 0;
     border: 1px solid rgb(226,224,224);
     width: 148px;
-    min-height: 220px;
+    min-height: 200px;
+    padding-top: 10px;
     overflow: hidden;
 }
 
@@ -363,10 +364,10 @@ a {
 .banner .innerContainer .journeyOptions ul li .journeyContainer div:first-child {
     width:50px;
     height: 45px;
-    
     margin-left:0;
     margin-right: 0;
-    margin: 0 auto; 
+    margin: 0 auto;
+    margin-bottom: 10px; 
 }
 
 .journeySymbolHolidayAir {
