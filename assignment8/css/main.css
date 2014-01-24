@@ -245,13 +245,13 @@ a {
     font-size: 22px;
     line-height: 25px;
     color: #cf3e05;
-    padding-bottom: 10px;
-    border-bottom: 3px solid rgb(255,193,54);
+    margin-bottom: 10px;
+    b
 }
 
 .banner .innerContainer .journeyInfo {
     border: 1px solid rgba(0,0,0,.16);
-    border-top: 0;
+    border-top: 3px solid rgb(255,193,54);
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.12);
     margin-bottom: 30px;
 }
