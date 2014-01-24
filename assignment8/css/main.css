@@ -143,6 +143,10 @@ a {
     padding-right: 8px;
 }
 
+.header .innerContainer .headerUpper .rightMove ul li a:hover {
+    color: red;
+}
+
 .header .innerContainer .headerUpper .rightMove ul li.clear {
     clear: both;
     float: none;
@@ -216,6 +220,11 @@ a {
     padding: 6px 16px;
     display: block;
     color: rgb(61,109,183);
+}
+
+
+.headerLower ul li a:hover {
+    color: #000;
 }
 
 .headerLower ul li.lastElement {
@@ -416,6 +425,11 @@ a {
     margin-bottom: 15px;
 }
 
+
+.detailButton:hover{
+    background-image:none;
+}
+
 .banner .innerContainer .journeyOptions ul li.clear {
     clear: both;
     float: none;
@@ -463,6 +477,11 @@ a {
     font-size: 11px;
     color: #385daa;
     line-height: 15px;
+}
+
+
+.featuresHeading a:hover {
+    color: red;
 }
 
 .cityFeatures ul {
