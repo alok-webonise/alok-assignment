@@ -774,6 +774,7 @@ div.journeySpecial {
 
 div.facinatingDeals {
     padding-left: 0;
+    width: 260px;
 }
 
 .journeySpecial .journeyFare {
@@ -845,7 +846,7 @@ div.facinatingDeals {
 }
 
 .facinatingDeals ul {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .cityFeatures ul li.clear {
