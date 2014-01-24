@@ -360,18 +360,42 @@ a {
     display: block;
 }
 
-.journeySymbol {
-    padding-top: 10px;
-    padding-bottom: 15px;
+.banner .innerContainer .journeyOptions ul li .journeyContainer div:first-child {
+    width:50px;
+    height: 45px;
+    
+    margin-left:0;
+    margin-right: 0;
+    margin: 0 auto; 
 }
 
-.journeySymbol img {
-    width: 100px;
-    height: 50px;
-    max-width: 100px;
-    max-height: 50px;
-    display: block;
+.journeySymbolHolidayAir {
+    background-image: url(../images/HolidayAir.png);
+    background-repeat: no-repeat;
 }
+
+.journeySymbolHolidayBus {
+     background-image: url(../images/HolidayBus.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.journeySymbolHolidayCar {
+     background-image: url(../images/HolidayCar.jpg);
+    background-repeat: no-repeat;
+}
+
+.journeySymbolHolidayBed {
+     background-image: url(../images/HolidayBed.png);
+    background-repeat: no-repeat;
+}
+
+.journeySymbolHolidayPalm {
+     background-image: url(../images/HolidayPalm.jpg);
+    background-repeat: no-repeat;
+}
+
+
 
 .banner .innerContainer .journeyOptions ul li div.journeyOfferings .destinationName {
     font-family: 'robotoregular';
