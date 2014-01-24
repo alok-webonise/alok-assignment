@@ -789,7 +789,7 @@ featuresHotels .journeyFare {
 }
 
 .cityWhereabouts ul {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 a.query {
@@ -958,4 +958,10 @@ div.facinatingDeals {
     font-weight: normal;
     font-style: normal;
 
+}
+
+.query:hover {
+background-image: none;
+background-color: #808000;
+color: #FFF;
 }
