@@ -214,8 +214,8 @@ a {
 
 .headerLower ul li a {
     font-family: 'Tahoma' Arial sans-serif;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 15px;
     text-align: center;
     padding: 6px 16px;
     display: block;
@@ -228,7 +228,7 @@ a {
 }
 
 .headerLower ul li.lastElement {
-    margin-left: 178px;
+    margin-left: 140px;
     margin-right: 0px;
 }
 
