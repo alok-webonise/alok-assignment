@@ -300,7 +300,6 @@ a {
     padding: 0;
     border: 1px solid rgb(226,224,224);
     width: 148px;
-    min-height: 220px;
     padding-top: 10px;
     overflow: hidden;
 }
@@ -349,6 +348,11 @@ a {
 .banner .innerContainer .journeyOptions ul li {
     float: left;
     margin-left: 16px;
+}
+
+.banner .innerContainer .journeyOptions ul li:nth-child(6) div.journeyOfferings .travelOption {
+    margin-bottom: 10px;
+    min-height: 25px;
 }
 
 .banner .innerContainer .journeyOptions ul li div {
@@ -764,7 +768,7 @@ featuresHotels .journeyFare {
 }
 
 .cityWhereabouts ul li div span:first-child {
-    font-family: 'Tahoma Bold';
+    font-family: 'tahomabold';
     font-size: 13px;
     color: #000;
     line-height: 15px;
@@ -931,4 +935,26 @@ div.facinatingDeals {
 
 .onReturn li div:nth-child(2) {
     width: 175px;
+}
+
+
+@font-face {
+    font-family: 'TahomaRegular';
+    src: url('../fonts/tahoma.eot');
+    src: url('../fonts/tahoma.eot') format('embedded-opentype'),
+         url('../fonts/tahoma.woff') format('woff'),
+         url('../fonts/tahoma.ttf') format('truetype'),
+         url('../fonts/tahoma.svg#TahomaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'tahomabold';
+    src: url('../fonts/tahoma_bold-webfont.eot');
+    src: url('../fonts/tahoma_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tahoma_bold-webfont.woff') format('woff'),
+         url('../fonts/tahoma_bold-webfont.ttf') format('truetype'),
+         url('../fonts/tahoma_bold-webfont.svg#tahomabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
