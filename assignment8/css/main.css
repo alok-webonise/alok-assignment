@@ -141,6 +141,7 @@ a {
     font-size: 11px;
     line-height: 16px;
     padding-right: 8px;
+    font-family: 'robotomedium';
 }
 
 .header .innerContainer .headerUpper .rightMove ul li a:hover {
@@ -213,7 +214,7 @@ a {
 }
 
 .headerLower ul li a {
-    font-family: 'Tahoma' Arial sans-serif;
+    font-family: 'robotomedium';
     font-size: 12px;
     line-height: 15px;
     text-align: center;
@@ -228,7 +229,7 @@ a {
 }
 
 .headerLower ul li.lastElement {
-    margin-left: 140px;
+    margin-left: 120px;
     margin-right: 0px;
 }
 
