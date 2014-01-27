@@ -609,15 +609,14 @@ color: #3D6DB7;
     -khtml-opacity: 0;
     opacity: 0;
     cursor: pointer;
-    width: 17px;
+    width: 15px;
 }
 
 .rating span {
     width: 24px;
-    height: 16px;
-    line-height: 16px;
-    padding: 1px 22px 1px 0;
- 
+    height: 15px;
+    line-height: 15px;
+    padding: 0 22px 1px 0;
     background: url(../images/stars.png) no-repeat -22px 0;
 }
 
