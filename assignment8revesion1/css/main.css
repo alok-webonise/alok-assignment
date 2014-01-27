@@ -102,6 +102,7 @@ a {
     height: 51px;
     background-image: url(../images/makemytriplogo.jpg);
     background-repeat: no-repeat;
+    text-indent: -5000px;
 }
 
 .header .innerContainer .headerUpper .rightMove {
