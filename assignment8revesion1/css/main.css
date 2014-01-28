@@ -23,6 +23,7 @@ html, body, div, span,
             padding: 0;
             border: 0;
             font-weight: normal;
+            -webkit-font-smoothing:antialiased;
 }
 
 ul {
