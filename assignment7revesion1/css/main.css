@@ -14,6 +14,7 @@ a {
 h1,h2,h3,h4,p {
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 
 .header {
@@ -51,13 +52,14 @@ h1,h2,h3,h4,p {
     font-family: 'Arial bold' 'Helvetica bold' sans-serif;
     color: #fff;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
-    border: 1px solid #000;
-    border-radius: 16px;
+    border: 2px outset rgba(0,0,0,.3);
+    border-radius: 17px;
     text-align: center;
-    padding: 7px 13px;
-    font-weight: bold;
+    padding: 1px 13px;
      margin-top: 9px;
     margin-bottom: 6px;
+    line-height: 28px;
+    
 
 }
 
@@ -182,7 +184,7 @@ h1,h2,h3,h4,p {
     display: block;
     width: 300px;
     padding: 2px 0;
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 0px rgba(0, 0, 0, 0.39);;
     margin: 0 auto;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
@@ -208,7 +210,7 @@ h1,h2,h3,h4,p {
     color: #444444;
     line-height: 39px;
     margin-bottom: 30px;
-    text-shadow: 0px -1px 0px rgba(255, 255, 255, 1);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .signUp {
@@ -313,9 +315,11 @@ button.facebookSignup {
     border-right: 1px solid #000;
     border-left: 1px solid #000;
     color: #fff;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
     border-radius: 4px;
     font-family: 'arial bold' 'helvetica bold' sans-serif;
+
+
 }
 
 [title="ideaContainer"] {
