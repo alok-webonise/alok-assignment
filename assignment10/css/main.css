@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,button{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.header { 
+	background: url(../images/headerGradient.png) repeat-x;
+}
+
+.innerContainer {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header .innerContainer a.bSchoolLogo {
+	text-indent: -5000px;
+	float: left;
+	background: url(../images/bschool_logo.png) no-repeat;
+	width:138px;
+	height: 36px;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	margin-right: 96px; 
+}
+
+.header .innerContainer a {
+	font-family: 'Arial Bold' Arial;
+	font-size: 14px;
+	line-height: 22px;
+	color: #2255aa;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.header .innerContainer .topNav {
+	float: left;
+	margin-top: 11px;
+}
+
+.header .innerContainer .topNav .upNav {
+	margin-bottom: 6px;
+}
+
+.header .innerContainer .topNav .searchWrapper input {
+	width: 370px;
+	height: 30px;
+	border: 1px solid #d2d5e9;
+}
+
+.header .innerContainer .topNav button {
+	width:88px;
+	height: 30px;
+	border: 1px solid #2255aa;
+	background:url(../images/buttonGradientSearch.png) repeat-x;
+	font-family: 'Arial';
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff; 
+}
+
+.header .innerContainer .topNav ul.upNav li {
+	float: left;
+	margin-right: 20px;
+}
+
+.header .innerContainer .connectUs {
+	float:right;
+	margin-top: 40px;
+}
+
+.header .innerContainer .connectUs ul {
+	float: left;
+}
+
+.header .innerContainer .connectUs ul li {
+	float: left;
+	margin-right: 15px;
+}
+
+.header .innerContainer .connectUs ul li.login {
+	margin-right: 20px;
+}
+
+.header .innerContainer .connectUs a.tweet {
+	float: left;
+	width: 23px;
+	height: 20px;
+	background:url(../images/twitter.png) no-repeat;
+
+}
+
+.header .innerContainer .connectUs a.faceBook {
+	float: left;
+	width: 23px;
+	height: 20px;
+	background:url(../images/facebook.png) no-repeat;
+}
+
+.header .innerContainer .topNav ul.upNav li.clearFix {
+	float: none;
+} 
+
+.clearFix {
+	clear: both;
+	float: none;
+}
