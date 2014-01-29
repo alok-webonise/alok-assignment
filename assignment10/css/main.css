@@ -1,9 +1,9 @@
-body {
+html,body {
 	margin: 0;
 	padding: 0;
 }
 
-h1,h2,h3,h4,button{
+h1,h2,h3,h4,button,p{
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
@@ -20,12 +20,19 @@ a {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: 'Arial Bold';
+	src:url("../font/ArialBold.ttf");
+}
+
 .header { 
 	background: url(../images/headerGradient.png) repeat-x;
+	box-shadow: 0px 1px 0px 0px rgba(187, 204, 255, 1);
+	margin-bottom: 40px;
 }
 
 .innerContainer {
-	width: 940px;
+	width: 990px;
 	margin: 0 auto;
 }
 
@@ -33,19 +40,19 @@ a {
 	text-indent: -5000px;
 	float: left;
 	background: url(../images/bschool_logo.png) no-repeat;
-	width:138px;
-	height: 36px;
-	margin-top: 22px;
-	margin-bottom: 22px;
+	width:134px;
+	height: 32px;
+	margin:22px 0;
 	margin-right: 96px; 
 }
 
 .header .innerContainer a {
-	font-family: 'Arial Bold' Arial;
+	font-family:  Arial;
 	font-size: 14px;
 	line-height: 22px;
 	color: #2255aa;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	font-weight: 700;
 }
 
 .header .innerContainer .topNav {
@@ -119,4 +126,214 @@ a {
 .clearFix {
 	clear: both;
 	float: none;
+}
+
+.header .innerContainer .connectUs ul li.clearFix {
+	clear: both;
+	float: none;
+	margin: 0;
+}
+
+.innerContainer div.leftContainer div.middleContainer div.rightContainer {
+	float: left;
+}
+
+div.leftContainer {
+	width: 209px;
+	border-right: 1px solid #e5e5ee;
+}
+
+.innerContainer .leftContainer .mainLogo {
+	padding-bottom: 19px;
+	border-bottom: 1px solid #e5e5ee;
+	margin-bottom: 20px;
+}
+
+.innerContainer .leftContainer .mainLogo img {
+	display: block;
+	max-height: 150px;
+	max-width: 209px;
+}
+
+.innerContainer .leftContainer .collegeInfo a {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	color: #2255aa;
+}
+
+.innerContainer .leftContainer .collegeInfo h3 {
+	margin-bottom: 17px;
+}
+
+.innerContainer .leftContainer .collegeInfo h3 a {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	font-weight: bold;
+	color: #2255aa;
+}
+
+.innerContainer .leftContainer .collegeInfo h4 {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 6px;
+
+}
+
+.innerContainer .leftContainer .sideNav li {
+	border-bottom: 1px solid #e5e5ee;
+}
+
+.innerContainer .leftContainer .sideNav li a {
+	font-size: 12px;
+	line-height: 18px;
+	color: #2255aa;
+	font-family: 'Arial';
+	font-weight: bold;
+	padding: 6px 0;
+	display:block; 
+}
+
+.collegeInfo p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #959595;
+	margin-bottom: 17px;
+	font-family: 'Arial';
+}
+
+.pageRepo {
+	margin-bottom: 19px;
+}
+
+.innerContainer .leftContainer .collegeInfo .CounterButton {
+	float: left;
+	width: 48px;
+	text-align: center;
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	color: #fff;
+	background: url(../images/counterButton.png) repeat-x;
+	padding: 2.5px 0;
+	border: 1px inset #2255aa;
+	border-radius: 3px;
+}
+
+.counter {
+	float: left;
+	text-align: center;
+	background: url(../images/counterBackground.png) no-repeat center center;
+	background-size: 100% 100%;
+	font-size: 12px;
+	line-height: 18px;
+	width: 42px;
+	padding: 4.5px 0;
+	color: #000;
+	font-family: 'Arial';
+	margin-right: 5px;
+}
+
+.sideNav li div {
+	float: left;
+}
+
+.sideNav li div.clearFix{
+	float: none;
+}
+
+.overview, .faculty, .infra , .teach , .exchange, .loc, .curricul, .global, .corporate, .alumini, .board, .placement {
+	width: 20px;
+	height: 17px;
+	margin-right: 5px;
+
+}
+
+.overview {
+	background: url(../images/oveview.png) no-repeat;
+}
+
+.faculty {
+	background: url(../images/Faculty.png) no-repeat;
+}
+
+.infra {
+	background: url(../images/infra.png) no-repeat;
+}
+
+.teach {
+	background: url(../images/teaching.png) no-repeat;
+}
+
+.exchange {
+	background: url(../images/student.png) no-repeat;
+} 
+
+.loc {
+	background: url(../images/location.png) no-repeat;
+} 
+
+.curricul {
+	background: url(../images/curriculum.png) no-repeat;
+} 
+
+.global {
+	background: url(../images/infra.png) no-repeat;
+} 
+
+.corporate {
+	background: url(../images/corporate.png) no-repeat;
+} 
+
+.alumini {
+	background: url(../images/alumuni.png) no-repeat;
+} 
+
+.board {
+	background: url(../images/board.png) no-repeat;
+} 
+
+.placement {
+	background: url(../images/placement.png) no-repeat;
+}
+
+.factFigures h4 {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	line-height: 18px;
+	background-color: #ccddff;
+	border: 1px solid #e8e8e8;
+
+}
+
+.factFigures ul li .label {
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: 700;
+	line-height: 18px;
+	color: #959595;
+}
+
+.factFigures ul li .values {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+.facultyProfiles h4 {
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	line-height: 18px;
+	background-color: #ccddff;
+	border: 1px solid #e8e8e8;
 }
