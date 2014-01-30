@@ -1,6 +1,7 @@
 html,body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Arial' 'ArialBold';
 }
 
 h1,h2,h3,h4,button,p{
@@ -70,15 +71,16 @@ a {
 	border: 1px solid #d2d5e9;
 }
 
-.header .innerContainer .topNav button {
-	width:88px;
+ .button {
+	width:90px;
 	height: 30px;
 	border: 1px solid #2255aa;
 	background:url(../images/buttonGradientSearch.png) repeat-x;
 	font-family: 'Arial';
 	font-size: 14px;
 	line-height: 22px;
-	color: #fff; 
+	color: #fff;
+
 }
 
 .header .innerContainer .topNav ul.upNav li {
@@ -134,8 +136,9 @@ a {
 	margin: 0;
 }
 
-.innerContainer div.leftContainer div.middleContainer div.rightContainer {
+.innerContainer div.leftContainer, div.middleContainer, div.rightContainer {
 	float: left;
+	min-height: 1200px;
 }
 
 div.leftContainer {
@@ -162,8 +165,9 @@ div.leftContainer {
 	color: #2255aa;
 }
 
-.innerContainer .leftContainer .collegeInfo h3 {
+.innerContainer .leftContainer .collegeInfo h3.instituteName {
 	margin-bottom: 17px;
+	line-height: 18px;
 }
 
 .innerContainer .leftContainer .collegeInfo h3 a {
@@ -186,6 +190,7 @@ div.leftContainer {
 
 .innerContainer .leftContainer .sideNav li {
 	border-bottom: 1px solid #e5e5ee;
+	background: url(../images/linkPointer.png) no-repeat 95% 50%;
 }
 
 .innerContainer .leftContainer .sideNav li a {
@@ -207,7 +212,7 @@ div.leftContainer {
 }
 
 .pageRepo {
-	margin-bottom: 19px;
+	margin-bottom: 17px;
 }
 
 .innerContainer .leftContainer .collegeInfo .CounterButton {
@@ -336,4 +341,311 @@ div.leftContainer {
 	line-height: 18px;
 	background-color: #ccddff;
 	border: 1px solid #e8e8e8;
+}
+
+ul.profilePics {
+	margin-bottom: 45px;
+}
+
+ul.profilePics li {
+	float: left;
+	width: 48px;
+	border: 1px solid #e5e5ee;
+	margin-right: 1px;
+}
+
+ul.profilePics li img {
+	max-width: 48px;
+	max-height: 48px;
+	display: block;
+
+}
+
+ul.profilePics li.clearFix {
+	float: none;
+	clear: both;
+	border: 0;
+	margin: 0;
+	margin: 0;
+
+}
+
+div.middleContainer {
+	padding: 0 19px;
+	width: 460px;
+	float: left;
+
+}
+
+ul.tabPanel {
+	background: url(../images/tabBackground.png) repeat-x;
+	border-bottom: 1px solid #ccddff;
+	padding:5px 0 0 5px; 
+	margin-bottom: 14px;
+
+}
+
+ul.tabPanel li {
+	float: left;
+	margin-right: 5px;
+	min-width: 50px;
+	border: 1px solid #bbccff;
+	border-bottom: none;
+	background-color: #fff;
+
+}
+
+ul.tabPanel li a {
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	color: #2255aa;
+	font-family: 'Arial';
+	padding: 6px 9px;
+}
+
+ul.tabPanel li.chat {
+	position: relative;
+	top:1px;
+	overflow:hidden;
+}
+
+ul.tabPanel li.clearFix {
+	float: none;
+	margin: 0;
+	width: 0;
+	border: none;
+}
+
+
+
+div.middleContainer ul.post li {
+	padding: 7px 0;
+	border-bottom: 1px solid #e5e5ee;
+
+}
+
+li .postImage {
+	float: left;
+	width: 33px;
+	border: 1px solid #d2d5e9;
+	margin-right: 10px;
+}
+ li .postImage img {
+	max-height: 33px;
+	max-width: 33px;
+	display: block;
+}
+
+div.middleContainer ul.post li .postContent {
+	width: 415px;
+	float: left;
+}
+
+.postHeading {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	color: #bbbbbb;
+}
+
+ a.schoolTitle {
+	font-size: 12px;
+	line-height: 18px;
+	color: #2255aa;
+	font-family: 'Arial';
+}
+
+p.postData {
+	font-family: 'Arial';
+	font-size: 12px;
+	line-height: 18px;
+	color: #959595;
+}
+
+.subPostImage {
+	float: left;
+	margin-right: 10px;
+}
+
+.subPostImage img {
+	max-height: 48px;
+	max-width: 48px;
+	display: block;
+}
+
+.subpostContent {
+	float: left;
+	width: 325px;
+}
+
+.like {
+	background: url(../images/likeicon.png) no-repeat center;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+.date, .likeSuffix {
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	color: #bbbbbb;
+	font-family: 'Arial';
+}
+.rightposition {
+	float: right;
+}
+
+.rightposition a {
+	float: left;
+}
+
+.likeCounter {
+	font-size: 12px;
+	font-family: 'Arial';
+	line-height: 18px;
+	color: #2255aa;
+}
+
+div.rightContainer {
+	width: 260px;
+	float: left;
+	padding-left: 19px;
+	border-left: 1px solid #E5E5EE;
+}
+
+div.rightContainer h3 {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: 'Arial';
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+div.rightContainer ul.listBschool {
+	margin-bottom: 25px;
+}
+
+div.rightContainer ul.listBschool li {
+	margin-bottom: 10px;
+}
+
+div.postElement {
+	float: left;
+	width: 210px;
+}
+
+div.postElement a{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Arial';
+	color: #2255aa;
+}
+
+div.loansNScholar {
+	margin-bottom: 20px;
+}
+
+div.loansNScholar h3 {
+	font-size: 16px;
+}
+
+
+div.loansNScholar p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #959595;
+}
+
+div.loansNScholar .button {
+	float: left;
+	width: 88px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	font-family: 'Arial';
+	padding: 3px 0;
+	margin-right: 10px;
+
+}
+
+.buttonSub {
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	color: #959595;
+	margin: 6px 0;
+}
+.buttonSub a {
+		color:#2255aa;
+	}
+
+.tipWeek {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E5E5EE;
+}
+
+.tipWeek a.button {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	width: 136px;
+	height: 22px;
+	padding: 3px 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.tip {
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Arial';
+	margin-bottom: 20px;
+}
+
+.footer{
+	min-height: 85px;
+	background: url(../images/footerGradient.png) repeat-x;
+	margin-top: 20px;
+}
+
+.footer ul {
+	padding-top: 20px;
+}
+
+.footer ul li {
+	float: left;
+	margin-right: 20px;
+	
+}
+.footer ul li a {
+	color: #2255aa;
+	font-family: 'Arial';
+	font-size: 14px;
+	line-height: 22px;
+}
+
+a.sponSer {
+	float: left;
+	width: 62px;
+	height: 18px;
+	background: url(../images/poweredBy.png) no-repeat;
+}
+
+span.sponserPre {
+	float: left;
+	width: 73px;
+	font-size: 12px;
+	line-height: 18px;
+	
+}
+
+
+.postSource span {
+	float: left;
+	font-size: 12px;
 }
