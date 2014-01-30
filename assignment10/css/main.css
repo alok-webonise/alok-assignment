@@ -486,7 +486,7 @@ p.postData {
 	width: 10px;
 	height: 10px;
 	float: left;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 
 .date, .likeSuffix {
@@ -496,12 +496,19 @@ p.postData {
 	color: #bbbbbb;
 	font-family: 'Arial';
 }
+
+.likeSuffix {
+	width:55px;
+	padding: 1px 0;
+	 }
+
 .rightposition {
 	float: right;
 }
 
 .rightposition a {
 	float: left;
+	width: 70px;
 }
 
 .likeCounter {
@@ -509,6 +516,8 @@ p.postData {
 	font-family: 'Arial';
 	line-height: 18px;
 	color: #2255aa;
+	float: left;
+	
 }
 
 div.rightContainer {
@@ -592,6 +601,7 @@ div.loansNScholar .button {
 .tipWeek {
 	padding-bottom: 20px;
 	border-bottom: 1px solid #E5E5EE;
+	margin-bottom: 5px;
 }
 
 .tipWeek a.button {
