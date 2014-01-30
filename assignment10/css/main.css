@@ -307,14 +307,14 @@ div.leftContainer {
 	background: url(../images/placement.png) no-repeat;
 }
 
-.factFigures h4 {
+h4.heading {
 	font-family: 'Arial';
 	font-weight: bold;
 	font-size: 14px;
 	color: #000;
-	line-height: 18px;
-	background-color: #ccddff;
-	border: 1px solid #e8e8e8;
+	line-height: 19px;
+	padding:6px 0;
+	background: url(../images/heading-Gradient.png) repeat-x;
 
 }
 
@@ -401,7 +401,7 @@ ul.tabPanel li a {
 	line-height: 18px;
 	color: #2255aa;
 	font-family: 'Arial';
-	padding: 6px 9px;
+	padding: 4px 9px;
 }
 
 ul.tabPanel li.chat {
@@ -447,6 +447,7 @@ div.middleContainer ul.post li .postContent {
 	line-height: 18px;
 	font-family: 'Arial';
 	color: #bbbbbb;
+	margin-bottom: 5px;
 }
 
  a.schoolTitle {
@@ -461,6 +462,7 @@ p.postData {
 	font-size: 12px;
 	line-height: 18px;
 	color: #959595;
+	margin-bottom: 10px;
 }
 
 .subPostImage {
@@ -484,6 +486,7 @@ p.postData {
 	width: 10px;
 	height: 10px;
 	float: left;
+	padding-top: 10px;
 }
 
 .date, .likeSuffix {
@@ -515,13 +518,15 @@ div.rightContainer {
 	border-left: 1px solid #E5E5EE;
 }
 
-div.rightContainer h3 {
+h3.heading {
 	font-size: 14px;
-	line-height: 18px;
 	font-family: 'Arial';
 	font-weight: bold;
 	color: #000;
 	margin-bottom: 10px;
+	line-height: 19px;
+	padding:6px 0;
+	background: url(../images/heading-Gradient.png) repeat-x;
 }
 
 div.rightContainer ul.listBschool {
@@ -648,4 +653,32 @@ span.sponserPre {
 .postSource span {
 	float: left;
 	font-size: 12px;
+	color: #bbbbbb;
+	margin-right: 4px;
+}
+
+.postSource a {
+	float: left;
+	font-size: 12px;
+	color: #2255aa;
+}
+
+a.socialIconFb {
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: url(../images/facebookicon.png) no-repeat;
+	margin-right: 5px;
+}
+
+a.socialIconTwtr {
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: url(../images/twitterIcon.png) no-repeat;
+		margin-right: 5px;
+}
+
+.socialStat {
+	margin-bottom: 10px;
 }
