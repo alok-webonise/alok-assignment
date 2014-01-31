@@ -73,6 +73,7 @@ a {
 	width: 370px;
 	height: 30px;
 	border: 1px solid #d2d5e9;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15) inset; 
 }
 
  .button {
@@ -826,4 +827,14 @@ ul.footRightNav li a {
 
 .footer .innerContainer {
 	padding-top: 20px;
+}
+
+a:hover {
+	opacity: .8;
+	}
+
+
+.searchWrapper .button {
+	position: relative;
+	left: -4px;
 }
