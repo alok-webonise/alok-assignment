@@ -80,6 +80,7 @@ a {
 	font-size: 14px;
 	line-height: 22px;
 	color: #fff;
+	text-shadow: 0px -1px 0px rgba(34, 85, 170, 1);
 
 }
 
@@ -189,7 +190,7 @@ div.leftContainer {
 }
 
 .innerContainer .leftContainer .sideNav li {
-	border-bottom: 1px solid #e5e5ee;
+	box-shadow: 0px 1px 0px 0px rgba(229, 229, 238, 1); 
 	background: url(../images/linkPointer.png) no-repeat 95% 50%;
 }
 
@@ -313,8 +314,9 @@ h4.heading {
 	font-size: 14px;
 	color: #000;
 	line-height: 19px;
-	padding:6px 0;
+	padding:6px 0 6px 5px;
 	background: url(../images/heading-Gradient.png) repeat-x;
+	text-shadow: 0px 1px 0px rgba(229, 229, 238, 1);
 
 }
 
@@ -324,6 +326,7 @@ h4.heading {
 	font-weight: 700;
 	line-height: 18px;
 	color: #959595;
+	float: left;
 }
 
 .factFigures ul li .values {
@@ -331,6 +334,8 @@ h4.heading {
 	line-height: 18px;
 	font-family: 'Arial';
 	font-weight: bold;
+	float: right;
+	margin-right: 10px;
 }
 
 .facultyProfiles h4 {
@@ -487,6 +492,7 @@ p.postData {
 	height: 10px;
 	float: left;
 	padding-top: 8px;
+	margin-right: 5px;
 }
 
 .date, .likeSuffix {
@@ -498,7 +504,7 @@ p.postData {
 }
 
 .likeSuffix {
-	width:55px;
+	
 	padding: 1px 0;
 	 }
 
@@ -509,6 +515,7 @@ p.postData {
 .rightposition a {
 	float: left;
 	width: 70px;
+	margin-right: 5px;
 }
 
 .likeCounter {
@@ -534,7 +541,7 @@ h3.heading {
 	color: #000;
 	margin-bottom: 10px;
 	line-height: 19px;
-	padding:6px 0;
+	padding:6px 0 6px 5px;
 	background: url(../images/heading-Gradient.png) repeat-x;
 }
 
@@ -621,6 +628,7 @@ div.loansNScholar .button {
 	line-height: 20px;
 	font-family: 'Arial';
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .footer{
@@ -643,6 +651,7 @@ div.loansNScholar .button {
 	font-family: 'Arial';
 	font-size: 14px;
 	line-height: 22px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 }
 
 a.sponSer {
@@ -657,9 +666,9 @@ span.sponserPre {
 	width: 73px;
 	font-size: 12px;
 	line-height: 18px;
+	color: #959595;
 	
 }
-
 
 .postSource span {
 	float: left;
@@ -713,3 +722,17 @@ ul.sideNav {
 .factFigures ul {
 	margin-bottom: 20px;
 }
+
+
+span.clearFix {
+	float: none;
+	clear: both;
+	display: block;
+}
+
+.factFigures ul li {
+	padding: 6px 0;
+	
+	box-shadow: 0px 1px 0px 0px rgba(229, 229, 238, 1); 
+
+} 
