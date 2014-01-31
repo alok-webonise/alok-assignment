@@ -654,7 +654,8 @@ div.loansNScholar .button {
 }
 
 .footer ul {
-	padding-top: 20px;
+	
+	float: left;
 }
 
 .footer ul li {
@@ -799,4 +800,30 @@ li.detailsPackge div {
 
 .detailsPackge .label {
 	padding: 3px 0;
+}
+
+ul.footRightNav li a {
+	font-size: 12px;
+}
+
+.copyRight {
+	float: left;
+	font-size: 12px;
+	line-height: 22px;
+	color: #959595;
+}
+
+.footer ul li.clearFix {
+	float: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.rightMove {
+	float: right;
+}
+
+.footer .innerContainer {
+	padding-top: 20px;
 }
