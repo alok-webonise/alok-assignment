@@ -52,7 +52,7 @@ a {
 }
 
 .header .innerContainer a {
-	font-family:  Arial;
+	
 	font-size: 14px;
 	line-height: 22px;
 	color: #2255aa;
@@ -84,7 +84,7 @@ a {
 	height: 30px;
 	border: 1px solid #2255aa;
 	background:url(../images/buttonGradientSearch.png) repeat-x;
-	font-family: 'Arial';
+	
 	font-size: 14px;
 	line-height: 22px;
 	color: #fff;
@@ -136,22 +136,18 @@ a {
 	background:url(../images/facebook.png) no-repeat;
 }
 
-.header .innerContainer .topNav ul.upNav li.clearFix {
-	float: none;
-} 
+
 
 .clearFix {
-	clear: both;
-	float: none;
+	clear: both !important;
+	float: none !important;
 	padding: 0 !important;
 	margin:0 !important;
+	border: none !important;
+	width: 0 !important;
+	height: 0 !important;
 }
 
-.header .innerContainer .connectUs ul li.clearFix {
-	clear: both;
-	float: none;
-	margin: 0;
-}
 
 .innerContainer div.leftContainer, div.middleContainer, div.rightContainer {
 	float: left;
@@ -179,7 +175,7 @@ div.leftContainer {
 .innerContainer .leftContainer .collegeInfo a {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'Arial';
+	font-weight: bold;
 	color: #2255aa;
 }
 
@@ -191,7 +187,7 @@ div.leftContainer {
 }
 
 .innerContainer .leftContainer .collegeInfo h3 a {
-	font-family: 'Arial Bold';
+	font-weight: bold;
 	color: #2255aa;
 	line-height: 18px;
 }
@@ -199,7 +195,7 @@ div.leftContainer {
 .innerContainer .leftContainer .collegeInfo h4 {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'Arial Bold';
+	font-weight: bold;
 	color: #000;
 	margin:0 5px 3px 0;
 }
@@ -214,7 +210,6 @@ div.leftContainer {
 	font-size: 12px;
 	line-height: 18px;
 	color: #2255aa;
-	font-family: 'Arial';
 	font-weight: bold;
 	padding: 6px 0;
 	display:block; 
@@ -228,7 +223,6 @@ div.leftContainer {
 	font-size: 12px;
 	line-height: 18px;
 	color: #959595;
-	font-family: 'Arial';
 	margin-right: 5px;
 }
 
@@ -241,7 +235,7 @@ div.leftContainer {
 	float: left;
 	width: 48px;
 	text-align: center;
-	font-family: 'Arial Bold' ;
+	font-weight: bold;
 	font-size: 12px;
 	line-height: 18px;
 	color: #fff;
@@ -261,7 +255,6 @@ div.leftContainer {
 	width: 42px;
 	padding: 4.5px 0;
 	color: #000;
-	font-family: 'Arial';
 	margin-right: 5px;
 }
 
@@ -269,15 +262,13 @@ div.leftContainer {
 	float: left;
 }
 
-.sideNav li div.clearFix{
-	float: none;
-}
 
 .overview, .faculty, .infra , .teach , .exchange, .loc, .curricul, .global, .corporate, .alumini, .board, .placement {
-	width: 15px;
-	height: 15px;
+	width: 17px;
+	height: 17px;
 	margin-right: 5px;
-
+	
+	
 }
 
 .overview {
@@ -329,7 +320,6 @@ div.leftContainer {
 }
 
 h4.heading {
-	font-family: 'Arial';
 	font-weight: bold;
 	font-size: 14px;
 	color: #000;
@@ -342,24 +332,23 @@ h4.heading {
 
 .factFigures ul li .label {
 	font-size: 12px;
-	font-family: 'Arial';
 	font-weight: 700;
 	line-height: 18px;
 	color: #959595;
 	float: left;
+	width: 140px;
 }
 
 .factFigures ul li .values {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'Arial';
 	font-weight: bold;
 	float: right;
 	margin-right: 10px;
+	width: 25px;
 }
 
 .facultyProfiles h4 {
-	font-family: 'Arial';
 	font-weight: bold;
 	font-size: 14px;
 	color: #000;
@@ -383,26 +372,22 @@ ul.profilePics li img {
 
 }
 
-ul.profilePics li.clearFix {
-	float: none;
-	clear: both;
-	border: 0;
-	margin: 0;
-	margin: 0;
 
-}
 
 div.middleContainer {
 	padding: 0 19px;
 	width: 460px;
 	float: left;
+	border-left: 1px solid #E5E5EE;
+	margin-left: -1px;
+	border-right: 1px solid #E5E5EE;
 
 }
 
 ul.tabPanel {
 	background: url(../images/tabBackground.png) repeat-x;
 	border-bottom: 1px solid #ccddff;
-	padding:5px 0 0 5px; 
+	padding:4px 0 0 4px; 
 	margin-bottom: 14px;
 
 }
@@ -422,8 +407,7 @@ ul.tabPanel li a {
 	font-size: 12px;
 	line-height: 18px;
 	color: #2255aa;
-	font-family: 'Arial';
-	padding: 5px 9px;
+	padding: 4px 9px;
 }
 
 ul.tabPanel li a:hover {
@@ -471,7 +455,6 @@ div.middleContainer ul.post li .postContent {
 .postHeading {
 	font-size: 12px;
 	line-height: 18px;
-	font-family: 'Arial';
 	color: #bbbbbb;
 	margin-bottom: 5px;
 }
@@ -480,11 +463,9 @@ div.middleContainer ul.post li .postContent {
 	font-size: 12px;
 	line-height: 18px;
 	color: #2255aa;
-	font-family: 'Arial';
 }
 
 p.postData {
-	font-family: 'Arial';
 	font-size: 12px;
 	line-height: 18px;
 	color: #959595;
@@ -523,7 +504,6 @@ p.postData {
 	font-size: 12px;
 	line-height: 18px;
 	color: #bbbbbb;
-	font-family: 'Arial';
 }
 
 .likeSuffix {
@@ -543,7 +523,6 @@ p.postData {
 
 .likeCounter {
 	font-size: 12px;
-	font-family: 'Arial';
 	line-height: 18px;
 	color: #2255aa;
 	float: left;
@@ -555,6 +534,7 @@ div.rightContainer {
 	float: left;
 	padding-left: 19px;
 	border-left: 1px solid #E5E5EE;
+	margin-left: -1px;
 }
 
 h3.heading {
@@ -580,16 +560,6 @@ div.postElement {
 	width: 210px;
 }
 
-div.postElement a{
-	font-size: 12px;
-	line-height: 18px;
-	font-family: 'Arial';
-	color: #2255aa;
-}
-
-div.postElement a:hover {
-	color: #0460Fa;
-}
 
 div.loansNScholar {
 	margin-bottom: 20px;
@@ -614,7 +584,6 @@ div.loansNScholar .button {
 	text-align: center;
 	line-height: 22px;
 	font-size: 14px;
-	font-family: 'Arial';
 	padding: 3px 0;
 	margin-right: 10px;
 
@@ -652,7 +621,6 @@ div.loansNScholar .button {
 .tip {
 	font-size: 18px;
 	line-height: 20px;
-	font-family: 'Arial';
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -675,7 +643,7 @@ div.loansNScholar .button {
 }
 .footer ul li a {
 	color: #2255aa;
-	font-family: 'Arial';
+	
 	font-size: 14px;
 	line-height: 22px;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
@@ -860,4 +828,16 @@ div.loc+div {
 
 .sideNav li div+div {
 	width: 175px;
+}
+
+a.postLink {
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	color: #25A;
+}
+
+li.subContainer {
+	padding: 0 !important;
+	border: none !important;
 }
