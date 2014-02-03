@@ -791,6 +791,7 @@ ul.footRightNav li a {
 	font-size: 12px;
 	line-height: 22px;
 	color: #959595;
+	width: 90px;
 }
 
 .footer ul li.clearFix {
@@ -841,4 +842,14 @@ a.postLink {
 li.subContainer {
 	padding: 0 !important;
 	border: none !important;
+}
+
+
+
+ul.footleftNav {
+	width: 450px
+}
+
+ul.footRightNav {
+	width: 350px;
 }
