@@ -52,7 +52,7 @@ h1,h2,h3,h4,p {
     font-family: 'Arial bold' 'Helvetica bold' sans-serif;
     color: #fff;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
-    border: 2px outset rgba(0,0,0,.3);
+    border: 2px outset rgba(0,0,0,.9);
     border-radius: 17px;
     text-align: center;
     padding: 1px 13px;
