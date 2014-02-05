@@ -62,12 +62,12 @@ body {
 }
 
 .header a.logo{
-	float: left;
 	text-indent: -5000px;
 	width: 113px;
 	height: 35px;
 	background:url(../img/logo.png) no-repeat;
 	margin:7px 0px 8px 0px;
+	display: block;
 
 }
 
@@ -83,15 +83,13 @@ div.pull-right {
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 	border: 2px solid rgba(0,0,0,.80);
 	border-radius: 17px;
-	line-height: 22px;
 	font-weight: bold;
-	padding: 4px 14px;
+	padding: 5px 14px;
 	float: left;
 }
 
  a.start {
  	background: url(../img/buttonGradientgetstarted.png) repeat-x;
-	width: 126px;
 
 	
 }
@@ -99,7 +97,6 @@ div.pull-right {
  a.sign {
 	background: url(../img/buttonGradientsignin.png) repeat-x;
 	margin-right: 13px;
-	width: 81px;
 
 }
 
@@ -187,10 +184,9 @@ margin-bottom: 20px;
 span.oRbackGround {
 	background: url(../img/orBackground.png) center center  repeat-x;
 font-family: 'ubuntumedium';
-font-size: 24px;
-line-height: 26px;
+font-size: 20px;
+line-height: 22px;
 display: block;
-width: 260px;
 color: #444;
 margin-bottom: 20px;
 }
@@ -303,4 +299,8 @@ line-height: 18px;
 font-family: 'Arial' 'Helvetica' 'sans-serif';
 color: #888;
 margin-bottom: 25px;
+}
+
+.banner strong {
+	font-family: 'ubuntulight'
 }
