@@ -1,0 +1,306 @@
+* {
+	box-sizing:border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+body {
+		background: url(../img/bodyGradient.png) repeat;
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../font/ubuntu-b-webfont.eot');
+    src: url('../font/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ubuntu-b-webfont.woff') format('woff'),
+         url('../font/ubuntu-b-webfont.ttf') format('truetype'),
+         url('../font/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../font/ubuntu-m-webfont.eot');
+    src: url('../font/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ubuntu-m-webfont.woff') format('woff'),
+         url('../font/ubuntu-m-webfont.ttf') format('truetype'),
+         url('../font/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../font/ubuntu-r-webfont.eot');
+    src: url('../font/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ubuntu-r-webfont.woff') format('woff'),
+         url('../font/ubuntu-r-webfont.ttf') format('truetype'),
+         url('../font/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../font/ubuntu-l-webfont.eot');
+    src: url('../font/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ubuntu-l-webfont.woff') format('woff'),
+         url('../font/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../font/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header {
+	background: url(../img/headerBackground.png) repeat-x;
+}
+
+.header a.logo{
+	text-indent: -5000px;
+	width: 113px;
+	height: 35px;
+	background:url(../img/logo.png) no-repeat;
+	margin:7px 0px 8px 0px;
+	display: block;
+
+}
+
+div.pull-right {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+ a.start , a.sign  {
+	font-size: 13px;
+	font-family: 'Arial' Helvetica sans-serif;
+	color: #FFF;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	border: 2px solid rgba(0,0,0,.80);
+	border-radius: 17px;
+	font-weight: bold;
+	padding: 5px 14px;
+	float: left;
+}
+
+ a.start {
+ 	background: url(../img/buttonGradientgetstarted.png) repeat-x;
+
+	
+}
+
+ a.sign {
+	background: url(../img/buttonGradientsignin.png) repeat-x;
+	margin-right: 13px;
+
+}
+
+div.banner {
+	background: url(../img/bannerBackground.png) repeat;
+	border-bottom: 1px solid #0C78B6;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+}
+
+.banner .container {
+	background: url(../img/bannerinnerBackground.png) no-repeat;
+	background-position: 10% 50%;
+}
+
+h1.text-center {
+	font-size: 40px;
+font-family: 'ubuntubold';
+color: #FFF;
+font-weight: normal;
+padding-top: 40px;
+text-align: center;
+line-height: 46px;
+text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+margin-bottom: 260px;
+}
+
+h3.text-center {
+	color: #FFF;
+line-height: 26px;
+font-family: 'ubuntulight';
+text-align: center;
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+font-weight: normal;
+margin-bottom: 50px;
+font-size: 24px;
+}
+
+.middleButton {
+background: url(../img/buttonLine.png) repeat-x center center;
+margin-bottom: 30px;
+}
+
+.middleButton .btn-block {
+	width: 300px;
+	margin: 0 auto;
+	font-size: 26px;
+	line-height: 34px;
+	background-image: url(../img/bannerButtonGradient.png);
+	border: 2px solid #0976B5;
+	border-radius: 30px;
+	color: #FFF;
+	font-weight: bold;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.bottomSection {
+	margin-bottom: 50px;
+	
+}
+
+.bottomSection .container {
+	border-bottom: 1px solid #CFCFCF;
+}
+
+a.facebookLogin {
+	display: block;
+	width: 260px;
+height: 37px;
+background-image: url(../img/facebookSign.png);
+background-repeat: no-repeat;
+margin-bottom: 20px;
+}
+
+h3.signupheading {
+	font-size: 22px;
+line-height: 36px;
+color: #444;
+font-family: 'ubuntulight';
+text-shadow: 0px 1px 0px #FFF;
+margin-bottom: 20px;
+}
+
+span.oRbackGround {
+	background: url(../img/orBackground.png) center center  repeat-x;
+font-family: 'ubuntumedium';
+font-size: 20px;
+line-height: 22px;
+display: block;
+color: #444;
+margin-bottom: 20px;
+}
+
+.oRbackGround strong {
+	background-color: #FFF;
+}
+
+.signupForm input {
+	height: 32px;
+	width: 262px;
+}
+
+.signUpBox {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+
+.signupForm button {
+background-image: url(../img/facebooksigningradient.png);
+background-repeat: repeat-x;
+font-size: 15px;
+line-height: 22px;
+width: 258px;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
+color: #FFF;
+padding:6px 0;
+}
+
+p.firstPara {
+	font-size: 18px;
+	color: #444;
+line-height: 26px;
+padding-bottom: 30px
+}
+
+p.secondPara {
+	font-size: 24px;
+line-height: 32px;
+color: #444;
+}
+
+
+h3.bottomHeading {
+	font-size: 36px;
+	font-family: 'ubuntumedium';
+	color: #444;
+	line-height: 39px;
+	margin-bottom: 30px;
+	text-shadow: 0px 1px 0px #FFF;
+	font-weight: normal;
+}
+
+div.bottomSection .span7 {
+	margin-top: 40px;
+}
+
+h3.doHeading {
+	color: #444;
+font-size: 36px;
+line-height: 38px;
+font-family: 'ubuntumedium';
+margin-bottom: 50px;
+text-shadow: 0px 1px 0px #FFF;
+}
+
+
+.shareistDo p {
+	font-size: 13px;
+	line-height: 18px;
+	color: #666;
+}
+
+.shareistDo .row h3{
+	font-family: 'Arial' 'Helvetica' sans-serif;
+font-size: 24px;
+line-height: 36px;
+color: #444;
+font-weight: normal;
+}
+
+.shareistDo ul.row {
+	margin-bottom: 20px;
+}
+
+.shareistDo ul.row li {
+	margin-bottom: 20px;
+}
+
+.shareistDo .container {
+	margin-bottom: 45px;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+.footer {
+	display: block;
+width: 130px;
+height: 50px;
+background-image: url(../img/poweredby.png);
+background-repeat: no-repeat;
+margin: 0 auto;
+}
+
+.signupForm p {
+font-size: 13px;
+line-height: 18px;
+font-family: 'Arial' 'Helvetica' 'sans-serif';
+color: #888;
+margin-bottom: 25px;
+}
+
+.banner strong {
+	font-family: 'ubuntulight'
+}
