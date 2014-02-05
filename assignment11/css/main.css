@@ -91,12 +91,15 @@ div.pull-right {
 
  a.start {
  	background: url(../img/buttonGradientgetstarted.png) repeat-x;
+	width: 126px;
+
 	
 }
 
  a.sign {
 	background: url(../img/buttonGradientsignin.png) repeat-x;
 	margin-right: 13px;
+	width: 81px;
 
 }
 
