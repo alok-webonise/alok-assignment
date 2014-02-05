@@ -93,8 +93,8 @@ a {
 
 }
 
-.button :hover {
-	background: #000;
+button :hover {
+	opacity: .8;
 }
 
 .topNav ul.upNav li {
